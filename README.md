@@ -14,8 +14,6 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 * Guilherme Victor Moura Silva
 * Matheus Zeíta Silva
 * Graciele Santos de Souza Ferreira
-* Nome completo do aluno 5
-* Nome completo do aluno 6
 
 ## Orientador
 
