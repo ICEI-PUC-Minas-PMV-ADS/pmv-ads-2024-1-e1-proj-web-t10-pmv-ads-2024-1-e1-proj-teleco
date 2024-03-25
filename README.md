@@ -11,7 +11,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 ## Integrantes
 
 * Nome completo do aluno 1
-* Nome completo do aluno 2
+* Guilherme Victor Moura Silva
 * Matheus Zeíta Silva
 * Nome completo do aluno 4
 * Nome completo do aluno 5
