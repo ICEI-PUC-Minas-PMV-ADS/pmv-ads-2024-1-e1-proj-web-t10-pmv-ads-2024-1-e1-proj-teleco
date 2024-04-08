@@ -25,15 +25,16 @@ estoque.</td>
 
 |EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE` |PARA ... `PORQUE`                 |
 |--------------------|---------------------------|----------------------------------|
+|                    |                           |                                  |
 | Usuário do SGP     | Ter acesso a um fluxo de  | Ter um maior controle            |
 |                    | caixa completo das        | financeiro                       |
 |                    | operações ocorridas no    |                                  |
 |                    | dia.                      |                                  |
-|--------------------|---------------------------|----------------------------------|
+|                    |                           |                                  |
 | Usuário do SGP     | Ter um relatório das      | Ter um maior controle            |
 |                    | operações realizadas no   | dos produtos e das vendas.       |
 |                    | estoque.                  |                                  |
-|--------------------|---------------------------|----------------------------------|
+|                    |                           |                                  |
 | Usuário do SGP     | Conseguir emitir boletos  | Atender aos meus clientes de     |
 |                    | automaticamente.          | forma mais eficiente.            |
 |                    |                           |                                  |
