@@ -2,20 +2,20 @@
 
 ## Perfis de Usuários
 
-[Enumere e faça o detalhamento dos perfis de usuários. Utilize o modelo de tabela abaixo para sintetizá-los.]
-
 <table>
 <tbody>
 <tr align=center>
-<th colspan="2">Perfil Nome </th>
+<th colspan="2">Perfil de Usuário </th>
 </tr>
 <tr>
 <td width="150px"><b>Descrição</b></td>
-<td width="600px">...</td>
+<td width="600px">Empresário de um Provedor de Internet</td>
 </tr>
 <tr>
 <td><b>Necessidades</b></td>
-<td>...</td>
+<td>Necessita de um sistema de fácil uso em que tenha acesso à gestão
+de clientes, emissão de notas, fluxo de caixa e gerenciamento de
+estoque.</td>
 </tr>
 </tbody>
 </table>
@@ -23,17 +23,17 @@
 
 ## Histórias de Usuários
 
-[Apresente aqui as histórias de usuários que são relevantes para o projeto da solução.]
-
-> **Link Útil**:
-> - [Como escrever boas histórias de usuário](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-
-[Utilize o modelo de tabela abaixo para apresentar as histórias de usuários.]
-
 |EU COMO... `QUEM`   | QUERO/PRECISO ... `O QUE` |PARA ... `PORQUE`                 |
 |--------------------|---------------------------|----------------------------------|
-| ...                | ...                       | ...                              |
-| ...                | ...                       | ...                              |
+| Usuário do SGP | Ter acesso a um fluxo de caixa
+completo das operações
+ocorridas no dia. | Ter um maior controle financeiro. |
+| Usuário do SGP | Ter um relatório das operações
+realizadas no estoque. | Ter um maior controle dos
+produtos e das vendas. |
+| Usuário do SGP | Conseguir emitir boletos
+automaticamente. | Atender aos meus clientes de
+forma mais eficiente. |
 
 ## Requisitos do Projeto
 
