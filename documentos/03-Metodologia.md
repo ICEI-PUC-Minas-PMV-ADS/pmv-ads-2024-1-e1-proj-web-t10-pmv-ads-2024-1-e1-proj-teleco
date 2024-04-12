@@ -31,6 +31,11 @@ Decidimos utilizar o processo Scrum por ser o mais utilizado e mais fácil para 
 - Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá. 
 - Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
 
+<figure> 
+  <img src="img/quadrokanban.png"
+    <figcaption>Figura 2 - Quadro Kanban</figcaption>
+</figure> 
+
 > **Links Úteis**:
 > - [Project management, made simple](https://github.com/features/project-management/)
 > - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
@@ -58,7 +63,7 @@ Decidimos utilizar o processo Scrum por ser o mais utilizado e mais fácil para 
 ### Ferramentas
 
 
-Como ferramentas utilizamos o Visual Studio Code, pois já tem integração com o sistema de versionamento, utilizamos o Teams e o Whatsapp para comunicação do grupo, e por serem de facil utilização, utilizamos também o GitHub como repositório remoto, e o figma para fazer o protótipo e UserFlow
+Como ferramentas utilizamos o Visual Studio Code, pois já tem integração com o sistema de versionamento, utilizamos o Teams e o Whatsapp para comunicação do grupo, e por serem de facil utilização, utilizamos também o GitHub como repositório remoto, e o figma para fazer o protótipo e UserFlow e o trello para fazer o quadro kanban
 
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
@@ -67,8 +72,8 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             | http://....                            |
 | Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-teleco/tree/main/documentos                            |
-| Projeto de Interface                | Figma                              | http://....                            |
-| Gerenciamento do Projeto            | GitHub Projects                    | http://....                            |
+| Projeto de Interface                | Figma                              | https://www.figma.com/file/npy6heSZgCgWFO9ehUsW5p/Projeto?type=whiteboard&node-id=0-1&t=olcFtuMtVLLP1G6C-0                            |
+| Gerenciamento do Projeto            | Trello                   | https://trello.com/invite/b/qocJrL3Z/ATTI227e5cc41ea27fcb7cdc70c211a30defEF3B7046/teleco                   |
 | Hospedagem                          | GitHub Pages                       | http://....                            |
 
 
