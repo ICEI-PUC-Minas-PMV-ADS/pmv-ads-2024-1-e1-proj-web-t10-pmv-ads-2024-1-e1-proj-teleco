@@ -49,7 +49,7 @@ estoque.</td>
 
 |ID    | Descrição                | Prioridade |
 |-------|---------------------------------|----|
-| RF-01 |  ...                    | ...   | 
+| RF-01 | A aplicação deve permitir ao usuário fazer login no sistema. | Alta | 
 |  ...  |  ...                    | ...   |
 
 **Prioridade: Alta / Média / Baixa. 
