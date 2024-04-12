@@ -48,7 +48,7 @@ estoque.</td>
 | RF-07 | A aplicação deve relatar o que há no estoque físico. | Média | 
 | RF-08 | A aplicação deve alertar o usuário quanto à necessidade de reabastecimento do estoque físico. | Baixa | 
 | RF-09 | A aplicação deve atrair o cliente através de cadastro em promoções regionalizadas, oferecer o equipamento em comodato como teste, benefício de 30 dias mediante o uso do cartão de crédito para fidelização. | Baixa | 
-| RF-10 | A aplicação deve contar com um chat automático para esclarecimento de dúvidas. | Baixaa | 
+| RF-10 | A aplicação deve contar com um chat automático para esclarecimento de dúvidas. | Baixa | 
 | | | |
 
 **Prioridade: Alta / Média / Baixa. 
