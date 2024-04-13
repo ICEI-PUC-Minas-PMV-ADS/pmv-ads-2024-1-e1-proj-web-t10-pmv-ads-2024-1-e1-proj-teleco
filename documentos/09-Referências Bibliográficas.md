@@ -11,7 +11,7 @@ https://documenter.getpostman.com/view/6682240/Tz5s5whG.
 MIKWEB. Sistema de gerenciamento para provedores. Dezembro, 2022.
 Disponivel em: https://www.mikweb.com.br/preco-ou-qualidade-na-escolha-so-sgp-sistemade-gerenciamento-para-provedores-veja-os-impactos/
 
-SGP usada para referência disponivel em:
+SGP usada para referência disponivel em:\
 https://demo.sgp.net.br/accounts/login?next=/admin/
 
 > **Links Úteis**:
