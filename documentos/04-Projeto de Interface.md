@@ -23,9 +23,27 @@ Desenvolver um protótipo emerge como uma das maneiras mais ágeis e econômicas
 
 Protótipos de baixa fidelidade apresentam de forma simplificada o design da interface e o relacionamento entre suas páginas, permitindo evolução da proposta da solução. Neste projeto, os utilizaremos para apoiar a validação dos requisitos e efetuar mudanças dos mesmos, caso seja necessário, para menor impacto na codificação da aplicação.
 
-[Elabore as principais interfaces gráficas da aplicação de modo que os requisitos funcionais sejam contemplados nas telas propostas.]
+Aqui estão algumas das telas que vão fazer parte do sistema
 
-[Adicione aqui as telas da sua aplicação com seus devidos títulos.] 
+<figure> 
+  <img src="img/paglogin.png"
+    <figcaption>Figura 2 - Login</figcaption>
+</figure> 
+
+<figure> 
+  <img src="img/homepage.png"
+    <figcaption>Figura 3 - Home Page</figcaption>
+</figure> 
+
+<figure> 
+  <img src="img/consultacliente.png"
+    <figcaption>Figura 4 - Consulta de clientes</figcaption>
+</figure> 
+
+<figure> 
+  <img src="img/serviçosprodutos.png"
+    <figcaption>Figura 5 - Serviços/Produtos do cliente</figcaption>
+</figure> 
  
 > **Links Úteis**:
 > - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
