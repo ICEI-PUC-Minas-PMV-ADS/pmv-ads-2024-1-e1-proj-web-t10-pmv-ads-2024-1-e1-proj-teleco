@@ -5,7 +5,7 @@
 
 O fluxo de usuário permite os desenvolvedores terem um caminho a ser percorrido e coisas a fazerem para que o projeto desenvolva e evolua
 
-[<figure> 
+<figure> 
   <img src="img/fluxousuario.png"
     <figcaption>Figura 1 - Fluxo de Usuário</figcaption>
 </figure> 
