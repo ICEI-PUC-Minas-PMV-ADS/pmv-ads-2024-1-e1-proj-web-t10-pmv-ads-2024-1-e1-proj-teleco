@@ -63,7 +63,7 @@ Decidimos utilizar o processo Scrum por ser o mais utilizado e mais fácil para 
 ### Ferramentas
 
 
-Como ferramentas utilizamos o Visual Studio Code, pois já tem integração com o sistema de versionamento, utilizamos o Teams e o Whatsapp para comunicação do grupo, e por serem de facil utilização, utilizamos também o GitHub como repositório remoto, e o figma para fazer o protótipo e UserFlow e o trello para fazer o quadro kanban
+Como ferramentas utilizamos o Visual Studio Code, pois já tem integração com o sistema de versionamento, utilizamos o Teams e o Whatsapp para comunicação do grupo, e por serem de facil utilização, utilizamos também o GitHub como repositório remoto, e o figma para fazer o protótipo e UserFlow e o trello para fazer o quadro kanban. Para o prototipo foi utilizado o MarvelApp.
 
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
