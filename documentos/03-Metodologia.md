@@ -12,11 +12,11 @@ A metodologia ágil escolhida para o desenvolvimento deste projeto foi o SCRUM, 
 ### Divisão de Papéis
 
 A equipe utiliza o Scrum como base para definição do processo de desenvolvimento.
-[Adicione informações abaixo sobre a divisão de papéis entre os membros da equipe.]
-- Scrum Master: Nome de um membro da equipe, principal responsável pela gestão do projeto.
-- Product Owner: Nome de um membro da equipe, representante dos interesses de todos os envolvidos (Stakeholders), define as funcionalidades do produto e prioriza os itens de Product Backlog.
-- Equipe de Desenvolvimento: Nomes de todos os membros da equipe, pois todos os membros deverão implementar uma tela/funcionalidade.
-- Equipe de Design: Nomes dos membros da equipe que trabalharão com design.
+A equipe está organizada desta forma:
+- Scrum Master: Arthur Pereira.
+- Product Owner: Guilherme Victor Moura Silva.
+- Equipe de Desenvolvimento: Arthur Pereira, Guilherme Victor Moura, Graciele Santos, Matheus Zeíta.
+- Equipe de Design: Arthur Pereira
 
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu 
@@ -25,11 +25,16 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 
 ### Processo
 
-[Adicione informações sobre detalhes da implementação do Scrum seguido pela equipe. A equipe poderá fazer uso de ferramentas on-line (GitHub Project ou Trello) para acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução. O quadro Kanban deverá apresentar a estrutura abaixo. Inserir despois das informações uma imagem do Kanban do projeto.]
+Decidimos utilizar o processo Scrum por ser o mais utilizado e mais fácil para o uso de projetos ágeis 
 - Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
 - To Do: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando. 
 - Doing: Quando uma tarefa tiver sido iniciada, ela é movida para cá. 
 - Done: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
+
+<figure> 
+  <img src="img/quadrokanban.png"
+    <figcaption>Figura 2 - Quadro Kanban</figcaption>
+</figure> 
 
 > **Links Úteis**:
 > - [Project management, made simple](https://github.com/features/project-management/)
@@ -57,16 +62,18 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
   
 ### Ferramentas
 
-[Descreva aqui as ferramentas empregadas no projeto e os ambiente de trabalho utilizados pela  equipe para desenvolvê-lo. Abrange a relação de ambientes utilizados, a estrutura para gestão do código fonte, além da definição do processo e ferramenta através dos quais a equipe se organiza (Gestão de Times).]
+
+Como ferramentas utilizamos o Visual Studio Code, pois já tem integração com o sistema de versionamento, utilizamos o Teams e o Whatsapp para comunicação do grupo, e por serem de facil utilização, utilizamos também o GitHub como repositório remoto, e o figma para fazer o protótipo e UserFlow e o trello para fazer o quadro kanban. Para o prototipo foi utilizado o MarvelApp.
+
 
 Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a relação dos ambientes com seu respectivo propósito é apresentada na tabela que se segue.
 
 | AMBIENTE                            | PLATAFORMA                         | LINK DE ACESSO                         |
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             | http://....                            |
-| Documentos do projeto               | GitHub                             | http://....                            |
-| Projeto de Interface                | Figma                              | http://....                            |
-| Gerenciamento do Projeto            | GitHub Projects                    | http://....                            |
+| Documentos do projeto               | GitHub                             | https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-teleco/tree/main/documentos                            |
+| Projeto de Interface                | Figma                              | https://www.figma.com/file/npy6heSZgCgWFO9ehUsW5p/Projeto?type=whiteboard&node-id=0-1&t=olcFtuMtVLLP1G6C-0                            |
+| Gerenciamento do Projeto            | Trello                   | https://trello.com/invite/b/qocJrL3Z/ATTI227e5cc41ea27fcb7cdc70c211a30defEF3B7046/teleco                   |
 | Hospedagem                          | GitHub Pages                       | http://....                            |
 
 
