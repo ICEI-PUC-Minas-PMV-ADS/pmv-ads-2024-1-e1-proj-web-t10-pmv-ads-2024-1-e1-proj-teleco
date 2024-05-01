@@ -12,7 +12,7 @@ body {
 }
 
 nav.menu-lateral {
-    width: 80px;
+    width: 5%;
     height: 100%;
     padding: 40px 0 40px 1%;
     background-color:rgb(45, 45, 45);
@@ -48,15 +48,16 @@ ul li.item-menu a{
     text-decoration: none;
     font-size: 20px;
     padding: 20px 4%;
-    display: flex;
-    margin-bottom: 20px;
+    display:flex;
+    margin-bottom: 5px;
     line-height: 40px;
+    margin-left: 5%;
 }
 
 ul li.item-menu a .txt-link{
-    margin-left: 30px;
+    margin-left: 40px;
 }
 
 ul li.item-menu a .icon > i{
-    font-size: 30px;
+    font-size: 130%;
 }
