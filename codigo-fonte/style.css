@@ -8,56 +8,96 @@
 }
 
 body {
-    height: 900vh;
+    background-color: rgb(226, 226, 226);
+    min-height: 100vh;
 }
-
-nav.menu-lateral {
-    width: 5%;
-    height: 100%;
-    padding: 40px 0 40px 1%;
+  
+.side-bar{
+    width: 80px;
+    height: 100vh;
+    padding: 10px 0 10px;
     background-color:rgb(45, 45, 45);
     box-shadow: 5px 0 0  cornflowerblue;
     position: fixed;
     top: 0;
     left: 0;
     overflow: hidden;
+    overflow-y: auto;
     transition: .3s;
 }
 
-nav.menu-lateral:hover{
+.side-bar:hover{
     width: 300px;
 }
+  
+.side-bar .menu{
+    width: 100%;
+}
+  
+.side-bar .menu .item{
+    position:relative;
+    cursor:pointer;
+  }
+  
+.side-bar .menu .item a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+    display:flex;
+    padding: 5px 30px;
+    line-height: 60px;
+}
+  
+.side-bar .menu .item a:hover{
+    background: cornflowerblue;
+    transition: 0.3s ease;
+  
+}
+  
+.side-bar .menu .item i{
+    margin-right: 50px;
+    font-size: 25px;
+}
+  
+.side-bar .menu .item a .dropdown{
+    position:absolute;
+    right: 80px;
+    font-size: 15px;
+    margin: 0px;
+    transition: .3s ease;
 
-
-ul{
-    height: 100%;
-    list-style: none;   
+}
+  
+.side-bar .menu .item .sub-menu{
+    background: rgba(255,255,255 , 0.1);
+    display:none;
+}
+  
+.side-bar .menu .item .sub-menu a{
+    padding-left: 80px;
+}
+  
+.rotate{
+    transform: rotate(90deg);
 }
 
-ul li.item-menu{
-    transition: .3s;
+h1 {
+    margin-left: 330px;
+    position: relative;
 }
 
-ul li.item-menu:hover{
+.side-bar .menu .item .caixa{
+background-color: cornflowerblue;
+}
+
+.side-bar .menu  .estoque{
     background-color: cornflowerblue;
 }
 
-
-ul li.item-menu a{
-    color: white;
-    text-decoration: none;
-    font-size: 20px;
-    padding: 20px 4%;
-    display:flex;
-    margin-bottom: 5px;
-    line-height: 40px;
-    margin-left: 5%;
+.side-bar .menu  .config{
+    background-color: cornflowerblue;
 }
 
-ul li.item-menu a .txt-link{
-    margin-left: 40px;
-}
-
-ul li.item-menu a .icon > i{
-    font-size: 130%;
+.side-bar .menu  .pdv{
+    background-color: cornflowerblue;
 }
