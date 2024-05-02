@@ -11,6 +11,8 @@ body {
     background-color: rgb(232, 232, 232);
     min-height: 100vh;
     margin-right: 10px;
+    overflow-x: hidden;
+
 }
   
 .side-bar{
@@ -132,7 +134,7 @@ background-color: cornflowerblue;
     transition: .4s;
     width: 100%;
     height: 100%;
-    margin-left: 85px;
+    margin-left: 10px;
     position:static;
     display: flex;
     padding: 10px 10px 10px 10px;
