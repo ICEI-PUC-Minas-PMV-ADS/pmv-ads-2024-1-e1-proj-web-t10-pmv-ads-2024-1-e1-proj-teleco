@@ -1,0 +1,56 @@
+
+.boxpdv{
+    color: rgb(0, 0, 0);
+    display: block;
+    top: 10px;
+    left: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    width: 250px;
+}
+.fieldsetpdv{
+    padding: 15px;
+}
+
+
+
+.inputBox-pdv{
+    position: relative;
+        }
+.inputUser-pdv{
+    background: none;
+    outline: none;
+    height: 40px;
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    width: 100%;
+    letter-spacing: 2px;
+}
+.labelInput-pdv{
+    
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.inputUser-pdv:focus ~ .labelInput-pdv,
+.inputUser-pdv:valid ~ .labelInput-pdv{
+    top: -22px;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+#submit-pdv{
+    background-image: linear-gradient(to right,rgb(76, 145, 225), rgb(30, 20, 220));
+    width: 100%;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#submit-pdv:hover{
+    
+    background-image: linear-gradient(to right,rgb(31, 115, 212), rgb(19, 42, 195));
+}

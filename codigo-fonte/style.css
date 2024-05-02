@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(232, 232, 232);
     min-height: 100vh;
     margin-right: 10px;
 }
@@ -124,8 +124,7 @@ background-color: cornflowerblue;
     position: fixed;
     display: flex;
     margin-left: 330px;
-    padding: 10px 10px 10px 10px;
-    background-color: aquamarine;
+    padding: 5px 5px 5px 5px;
     
 }
 
