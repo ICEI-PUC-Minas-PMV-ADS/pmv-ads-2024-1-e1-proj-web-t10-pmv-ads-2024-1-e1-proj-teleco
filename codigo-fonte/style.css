@@ -12,6 +12,7 @@ body {
     min-height: 100vh;
     margin-right: 10px;
     overflow-x: hidden;
+    overflow-y: hidden;
 
 }
   
@@ -159,10 +160,12 @@ background-color: cornflowerblue;
     border-radius: 15px;
     width: 20%;
 }
+
 fieldset{
     border: 3px solid cornflowerblue;
     padding: 15px;
 }
+
 legend{
     border: 1px solid cornflowerblue;
     padding: 19px;
