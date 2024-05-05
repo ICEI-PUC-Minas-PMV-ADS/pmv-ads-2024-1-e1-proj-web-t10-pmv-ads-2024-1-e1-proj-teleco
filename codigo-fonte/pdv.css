@@ -7,6 +7,7 @@
     padding: 10px;
     border-radius: 15px;
     width: 250px;
+    height: 100px;
 }
 .fieldsetpdv{
     padding: 15px;
@@ -50,6 +51,8 @@
 #submit-pdv:hover{
     
     background-image: linear-gradient(to right,rgb(31, 115, 212), rgb(19, 42, 195));
+    font-size: 20px;
+
 }
 
 .divcorpo {
@@ -57,12 +60,65 @@
     display: inline-block;
 }
 
-.tabelapdv {
+/*Tabela*/
+
+table,
+td,
+tr{
     margin-top: 10px;
-    margin-right: 10px;
-    margin-bottom: 60px;
-    width: 122vh;
-    background-color: aquamarine;
-    display: flex;
+    padding: 20px;
+    border-collapse: collapse;
+    position: static;
+    border: 1px solid white;
     
+
+}
+
+#descricao{
+    column-width: 400px;
+}
+
+#cod,
+#qtd,
+#vunit,
+#vtotal,
+#acao{
+    column-width: 100px;
+}
+
+
+.colunavendas{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.boxbotaofechavenda{
+    position: static;
+    width: 100%;
+    height: 80px;
+    
+}
+
+.botaofechavenda{
+    margin-left: 50%;
+    margin-top: 40px;
+    left: 50%;
+    border: none;
+    transform: translate(-50%,-50%);
+    padding: 8px;
+    width: 190px;
+    height: 45px;
+    font-size: 15px;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    background-image: linear-gradient(to right,rgb(76, 145, 225), rgb(30, 20, 220));
+
+}
+
+.botaofechavenda:hover{
+    background-image: linear-gradient(to right,rgb(31, 115, 212), rgb(19, 42, 195));
+    font-size: 20px;
+    height: 50px;
+
 }
