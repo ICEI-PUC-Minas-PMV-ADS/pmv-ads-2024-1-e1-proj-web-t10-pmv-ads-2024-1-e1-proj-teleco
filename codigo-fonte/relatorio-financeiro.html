@@ -6,9 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="UTF-8" ></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/relatorio-financeiro.css">
+
  
-  <title>Titron - Home</title>
+  <title>Titron - Relatório</title>
 </head>
 <body>
     <header>
@@ -57,15 +59,16 @@
     </div>
     
     <script type="text/javascript">
-        $(document).ready(function(){
+      $(document).ready(function(){
+      
+        $('.sub-btn').click(function(){
+          $(this).next('.sub-menu').slideToggle();
+          $(this).find('.dropdown').toggleClass('rotate');
+        })
+      
+      });
+      </script>
 
-          $('.sub-btn').click(function(){
-            $(this).next('.sub-menu').slideToggle();
-            $(this).find('.dropdown').toggleClass('rotate');
-          });
-
-        });
-    </script>
   
 </body>
 </html>

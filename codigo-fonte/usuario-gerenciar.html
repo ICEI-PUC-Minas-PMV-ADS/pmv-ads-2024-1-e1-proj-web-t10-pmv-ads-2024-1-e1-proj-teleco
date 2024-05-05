@@ -6,10 +6,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="UTF-8" ></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-  <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="users.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/users.css">
 
-  <title>Titron - Home</title>
+  <title>Titron - Usuários</title>
 </head>
 <body>
     <header>
@@ -53,31 +53,31 @@
     <div class="cabecalho">
       <h1>Usuários</h1>
     </div>
-    <div class="corpoconfig"> 
+    <div class="corpouser"> 
       <form action="">
-        <fieldset class="fieldsetpdv">
+        <fieldset class="fieldsetuser">
           <legend><b>Cadastro de Usuários</b></legend>
             <br>
-            <div class="inputBox-pdv">
-              <label for="email" class="labelInput-pdv">Email:</label>
-              <input type="email" name="email"  id="email" class="inputUser-pdv" required>
+            <div class="inputBox-user">
+              <label for="email" class="labelInput-user">Email:</label>
+              <input type="email" name="email"  id="email" class="inputUser-user" required>
             </div>
             <br>
-            <div class="inputBox-pdv">
-              <label for="senha" class="labelInput-pdv">Senha:</label>
-              <input type="password" name="senha"  id="senha" class="inputUser-pdv" required>
+            <div class="inputBox-user">
+              <label for="senha" class="labelInput-user">Senha:</label>
+              <input type="password" name="senha"  id="senha" class="inputUser-user" required>
             </div>  
             <br>
-            <div class="inputBox-pdv">
-              <label for="confsenha" class="labelInput-pdv">Confirmar Senha:</label>
-              <input type="password" name="confsenha"  id="confsenha" class="inputUser-pdv" required>
+            <div class="inputBox-user">
+              <label for="confsenha" class="labelInput-user">Confirmar Senha:</label>
+              <input type="password" name="confsenha"  id="confsenha" class="inputUser-user" required>
             </div>      
             <br><br><br><br>
-            <input type="submit" name="submit" value="Salvar " id="submit-pdv">
+            <input type="submit" name="submit" value="Salvar " id="submit-user">
         </fieldset>
     </form>
     <div >
-      <fieldset class="fieldsetpdv">
+      <fieldset class="fieldsetuser">
         <legend><b>Usuários Cadastrados</b></legend>
         <table >
           <tbody>
@@ -97,7 +97,16 @@
     </div>
     </div>
     
-    <script src="scripts/scripts.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function(){
+      
+        $('.sub-btn').click(function(){
+          $(this).next('.sub-menu').slideToggle();
+          $(this).find('.dropdown').toggleClass('rotate');
+        })
+      
+      });
+      </script>
 
   
 </body>

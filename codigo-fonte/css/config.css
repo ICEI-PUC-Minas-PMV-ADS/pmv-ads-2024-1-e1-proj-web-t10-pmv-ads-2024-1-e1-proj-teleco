@@ -10,7 +10,7 @@
 
 }
 
-.boxpdv{
+.boxconfig{
     color: rgb(0, 0, 0);
     display: flex;
     top: 10px;
@@ -19,15 +19,14 @@
     border-radius: 15px;
     width: 800px;
 }
-.fieldsetpdv{
+.fieldsetconfig{
     padding: 15px;
 }
 
-
-.inputBox-pdv{
+.inputBox-config{
     position: relative;
         }
-.inputUser-pdv{
+.inputUser-config{
     border-color: rgb(0, 0, 0);
     background: none;
     display: block;
@@ -41,7 +40,7 @@
     ;}
 
 
-.labelInput-pdv{
+.labelInput-config{
     
     top: 0px;
     left: 0px;
@@ -49,7 +48,7 @@
     transition: .5s;
 }
 
-#submit-pdv{
+#submit-config{
     background-image: linear-gradient(to right,rgb(76, 145, 225), rgb(30, 20, 220));
     width: 200px;
     position: relative;
@@ -61,7 +60,7 @@
     border-radius: 10px;
     margin-left: 200px;
 }
-#submit-pdv:hover{
+#submit-config:hover{
     
     background-image: linear-gradient(to right,rgb(31, 115, 212), rgb(19, 42, 195));
 }
