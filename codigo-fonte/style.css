@@ -12,6 +12,7 @@ body {
     min-height: 100vh;
     margin-right: 10px;
     overflow-x: hidden;
+    overflow-y: hidden;
 
 }
   
@@ -84,6 +85,12 @@ body {
     transform: rotate(90deg);
 }
 
+h1 {
+    font-size: 20px;
+    margin-left: 50%;
+    color: #fff;
+    transform: translate(-50%);
+}
 
 .side-bar .menu .item .caixa{
 background-color: cornflowerblue;
@@ -161,10 +168,12 @@ h1 {
     border-radius: 15px;
     width: 20%;
 }
+
 fieldset{
     border: 3px solid cornflowerblue;
     padding: 15px;
 }
+
 legend{
     border: 1px solid cornflowerblue;
     padding: 19px;

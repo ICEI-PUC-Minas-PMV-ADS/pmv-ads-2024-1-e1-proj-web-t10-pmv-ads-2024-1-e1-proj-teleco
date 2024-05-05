@@ -121,4 +121,8 @@ tr{
     font-size: 20px;
     height: 50px;
 
+    margin-right: 10px;
+    margin-bottom: 60px;
+    width: 100%;
+    background-color: aquamarine;
 }

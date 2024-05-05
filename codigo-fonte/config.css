@@ -1,0 +1,80 @@
+.corpoconfig{
+    margin-left: 330px ;
+    margin-top: 10px;
+    height: 700px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    position: static;
+    padding: 20px;
+    overflow: hidden ;
+
+}
+
+.boxpdv{
+    color: rgb(0, 0, 0);
+    display: flex;
+    top: 10px;
+    left: 10px;
+    padding: 10px;
+    border-radius: 15px;
+    width: 800px;
+}
+.fieldsetpdv{
+    padding: 15px;
+}
+
+
+.inputBox-pdv{
+    position: relative;
+        }
+.inputUser-pdv{
+    border-color: rgb(0, 0, 0);
+    background: none;
+    display: block;
+    border-radius: 10px;
+    outline: none;
+    height: 35px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    width: 100%;
+    letter-spacing: 1px;    
+    ;}
+
+
+.labelInput-pdv{
+    
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+
+#submit-pdv{
+    background-image: linear-gradient(to right,rgb(76, 145, 225), rgb(30, 20, 220));
+    width: 200px;
+    position: relative;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 200px;
+}
+#submit-pdv:hover{
+    
+    background-image: linear-gradient(to right,rgb(31, 115, 212), rgb(19, 42, 195));
+}
+
+.divcorpo {
+
+    display: inline-block;
+}
+
+#token, #url{
+    width: 600px;
+}
+#app{
+    width: 200px;
+}
+
