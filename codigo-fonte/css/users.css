@@ -1,4 +1,4 @@
-.corpoconfig{
+.corpouser{
     margin-left: 330px ;
     margin-top: 10px;
     height: 800px;
@@ -11,17 +11,17 @@
 
 }
 
-.fieldsetpdv{
+.fieldsetuser{
     padding: 15px;
     width: 350px;
     margin-right: 90px;
 }
 
-.inputBox-pdv{
+.inputBox-user{
     position: relative;
  }
 
-.inputUser-pdv{
+.inputUser-user{
     border-color: rgb(0, 0, 0);
     background: none;
     display: block;
@@ -35,7 +35,7 @@
     ;}
 
 
-.labelInput-pdv{
+.labelInput-user{
     
     top: 0px;
     left: 0px;
@@ -43,7 +43,7 @@
     transition: .5s;
 }
 
-#submit-pdv{
+#submit-user{
     background-image: linear-gradient(to right,rgb(76, 145, 225), rgb(30, 20, 220));
     width: 100%;
     border: none;
@@ -56,7 +56,7 @@
     margin-left: 50%;
 
 }
-#submit-pdv:hover{
+#submit-user:hover{
     background-image: linear-gradient(to right,rgb(31, 115, 212), rgb(19, 42, 195));
 }
 
