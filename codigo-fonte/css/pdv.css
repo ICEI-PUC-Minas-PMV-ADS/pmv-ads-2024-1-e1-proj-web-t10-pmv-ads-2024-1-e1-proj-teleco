@@ -44,7 +44,7 @@
 
 #submit-pdv,
 #consultaCliente{
-    background-image: linear-gradient(to right,rgb(76, 145, 225), rgb(30, 20, 220));
+    background-image: linear-gradient(to right,rgb(76, 145, 225), rgb(74, 65, 238));
     width: 100%;
     border: none;
     padding: 15px;
@@ -55,10 +55,18 @@
     border-radius: 10px;
 }
 #submit-pdv:hover,
-#consultaCliente:hover{
+#consultaCliente:hover,
+.botaofechavenda:hover{
     
     background-image: linear-gradient(to right,rgb(31, 115, 212), rgb(19, 42, 195));
-    font-size: 20px;
+
+}
+
+#submit-pdv:active,
+#consultaCliente:active,
+.botaofechavenda:active{
+    font-size: 14px;
+    opacity: 0.5;
 
 }
 
@@ -119,16 +127,6 @@ tr{
     border-radius: 10px;
     color: white;
     cursor: pointer;
-    background-image: linear-gradient(to right,rgb(76, 145, 225), rgb(30, 20, 220));
+    background-image: linear-gradient(to right,rgb(76, 145, 225), rgb(74, 65, 238));
 
-}
-
-.botaofechavenda:hover{
-    background-image: linear-gradient(to right,rgb(31, 115, 212), rgb(19, 42, 195));
-    font-size: 20px;
-    height: 50px;
-
-    margin-right: 10px;
-    margin-bottom: 60px;
-    background-color: aquamarine;
 }

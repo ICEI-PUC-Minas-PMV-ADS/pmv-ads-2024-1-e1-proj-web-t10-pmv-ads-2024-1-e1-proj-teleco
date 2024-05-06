@@ -1,27 +1,27 @@
-.corpouser{
-    margin-left: 330px ;
+.corpouser {
+    margin-left: 330px;
     margin-top: 10px;
     height: 800px;
     margin-bottom: 10px;
     margin-right: 10px;
     padding: 30px;
-    overflow: hidden ;
+    overflow: hidden;
     display: flex;
     width: 1000px;
 
 }
 
-.fieldsetuser{
+.fieldsetuser {
     padding: 15px;
     width: 350px;
     margin-right: 90px;
 }
 
-.inputBox-user{
+.inputBox-user {
     position: relative;
- }
+}
 
-.inputUser-user{
+.inputUser-user {
     border-color: rgb(0, 0, 0);
     background: none;
     display: block;
@@ -31,20 +31,21 @@
     color: rgb(0, 0, 0);
     font-size: 15px;
     width: 100%;
-    letter-spacing: 1px;    
-    ;}
+    letter-spacing: 1px;
+    ;
+}
 
 
-.labelInput-user{
-    
+.labelInput-user {
+
     top: 0px;
     left: 0px;
     pointer-events: none;
     transition: .5s;
 }
 
-#submit-user{
-    background-image: linear-gradient(to right,rgb(76, 145, 225), rgb(30, 20, 220));
+#submit-user {
+    background-image: linear-gradient(to right, rgb(76, 145, 225), rgb(74, 65, 238));
     width: 100%;
     border: none;
     padding: 15px;
@@ -52,41 +53,50 @@
     font-size: 15px;
     cursor: pointer;
     border-radius: 10px;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     margin-left: 50%;
 
 }
-#submit-user:hover{
-    background-image: linear-gradient(to right,rgb(31, 115, 212), rgb(19, 42, 195));
+
+#submit-user:hover {
+    background-image: linear-gradient(to right, rgb(31, 115, 212), rgb(19, 42, 195));
+}
+
+#submit-user:active {
+    font-size: 14px;
+    opacity: 0.5;
 }
 
 .divcorpo {
     display: inline-block;
 }
 
-.colunauser{
+.colunauser {
     margin-left: 80px;
     width: 350px;
     height: 80px;
     border: 4px solid cornflowerblue;
 }
 
-table, th, td {
+table,
+th,
+td {
     border-bottom: 1px solid black;
 }
-    
+
 table {
     border-collapse: collapse;
     margin: auto;
 }
-    
-th, td{
+
+th,
+td {
     padding: 10px;
     text-align: center;
     width: 120px;
 }
 
-#botaoedit{
+#botaoedit {
     color: cornflowerblue;
     cursor: pointer;
 }
