@@ -35,7 +35,7 @@ th {
         width: auto;
         border: none;
         padding: 15px;
-        margin-right: 55%;
+        margin-right: 36%;
         margin-bottom: 20px;
         color: white;
         font-size: 15px;
@@ -48,4 +48,17 @@ th {
 #botaoedit, #botaodelete {
     color: cornflowerblue;
     cursor: pointer;
+}
+
+#botaodelete:hover {
+    color: red;
+}
+
+.perfiluser {
+    border-radius: 50%;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    color: white;
+
 }
