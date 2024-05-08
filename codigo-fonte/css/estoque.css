@@ -45,6 +45,31 @@ th {
 
 }
 
+.adc:hover {
+    background-image: linear-gradient(to right,rgb(31, 115, 212), rgb(19, 42, 195));
+
+}
+
+.buscar {
+    display: flex;
+    background-image: linear-gradient(to right,rgb(76, 145, 225), rgb(74, 65, 238));
+    width: auto;
+    border: none;
+    padding: 15px;
+    margin-right: 0.3%;
+    margin-bottom: 50%;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    float: right;
+}
+
+.buscar:hover {
+    background-image: linear-gradient(to right,rgb(31, 115, 212), rgb(19, 42, 195));
+
+}
+
 #botaoedit, #botaodelete {
     color: cornflowerblue;
     cursor: pointer;
