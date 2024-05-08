@@ -1,4 +1,4 @@
-.boxcaixafecha{
+.boxrelvenda{
     display: inline;
     padding: 10px;
 }
@@ -9,15 +9,22 @@
     font-size: 20px;
 }
 
-.fieldsetcaixafecha{
+.fieldsetrelvenda{
     border-color: cornflowerblue;
     padding: 15px;
     display: flex;
     align-items: center;
 }
 
+#botaoedit,
+#botaodelete{
+    color: cornflowerblue;
+    margin: 10px;
+    cursor: pointer;
+}
 
-.inputUser-caixafecha{
+
+.inputUser-relvenda{
     border-color: rgb(0, 0, 0);
     background: none;
     border-radius: 10px;
@@ -26,12 +33,16 @@
     color: rgb(0, 0, 0);
     font-size: 15px;
     width: 150px;
-    letter-spacing: 1px;   
+    letter-spacing: 1px;    
     ;}
 
-#submit-caixafecha{
+.inputBox-relvenda{
+    padding: 10px;
+}
+
+#submit-relvenda{
     background-image: linear-gradient(to right,rgb(76, 145, 225), rgb(74, 65, 238));
-    width: 150px;
+    width: 100px;
     margin-left: 30px;
     border: none;
     padding: 15px;
@@ -40,13 +51,13 @@
     cursor: pointer;
     border-radius: 10px;
 }
-#submit-caixafecha:hover{
-   
+#submit-relvenda:hover{
+    
     background-image: linear-gradient(to right,rgb(31, 115, 212), rgb(19, 42, 195));
 
 }
 
-#submit-caixafecha:active{
+#submit-relvenda:active{
     font-size: 14px;
     opacity: 0.5;
 
@@ -68,11 +79,11 @@ tr{
 }
 
 
-#valor{
-    column-width: 350px;
+#cliente, #produto{
+    column-width: 300px;
 }
-#tipo{
-    column-width: 200px;
+#data, #valor{
+    column-width: 180px;
 }
 
 .tabcabeca{
