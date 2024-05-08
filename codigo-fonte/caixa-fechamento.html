@@ -25,19 +25,19 @@
             <div class="item">
               <a class="sub-btn caixa"><i class="bi bi-cash"></i>Caixa<i class="bi bi-caret-right-fill dropdown"></i></a>
               <div class="sub-menu">
-                <a href="caixa-lancamento.html" class="sub-item">Lançamentos</a>
+                <a href="caixa-lancamento.html" class="sub-item">LanÃ§amentos</a>
                 <a class="sub-item">Fechamento</a>
               </div>
             </div>
             <div class="item">
-              <a class="sub-btn"><i class="bi bi-bar-chart-fill"></i>Relatório<i class="bi bi-caret-right-fill dropdown"></i></a>
+              <a class="sub-btn"><i class="bi bi-bar-chart-fill"></i>RelatÃ³rio<i class="bi bi-caret-right-fill dropdown"></i></a>
               <div class="sub-menu">
                 <a href="relatorio-financeiro.html" class="sub-item">Financeiro</a>
                 <a href="relatorio-vendas.html" class="sub-item">Vendas</a>
                 <a href="relatorio-comodato.html" class="sub-item">Comodato</a>
               </div>
             </div>
-            <div class="item"><a href="configuracao.html"><i class="bi bi-gear"></i>Configurações</a></div>
+            <div class="item"><a href="configuracao.html"><i class="bi bi-gear"></i>ConfiguraÃ§Ãµes</a></div>
             <div class="item">
                 <a class="sub-btn"><i class="bi bi-person-circle"></i>Conta<i class="bi bi-caret-right-fill dropdown"></i></a>
                 <div class="sub-menu">
@@ -58,7 +58,50 @@
       </div>
     </div>
     <div class="corpo">
+      <div class="tabelacaixafecha divcorpo">
+        <div class="boxcaixafecha divcorpo">
+          <form action="">
+            <fieldset class="fieldsetcaixafecha">
+              <br>
+              <div class="inputBox-caixafecha">
+                <label for="dataini" class="labelInput-caixafecha">Data Fechamento:</label>
+                <input type="date" name="dataini" id="dataini" class="inputUser-caixafecha" required>
+              </div>
+              <input type="submit" name="submit" value="Fechar Caixa" id="submit-caixafecha">
+            </fieldset>
+          </form>
+        </div>
+        <table class="tabelavendas">
+          <thead>
+            <tr class="tabcabeca">
+              <th id="valor">Valor do Caixa</th>
+              <th id="tipo">Tipo de OperaÃ§Ã£o</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>R$ 200,00</td>
+              <td>Saida</td>
+            </tr>
+            <tr>
+              <td>R$ 200,00</td>
+              <td>Entrada</td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="boxresultado">
+          <form action="">
+            <fieldset class="fieldsetcaixafecha">
+              <br>
+              <div class="inputBox-caixafecha">
+                <label for="dataini" class="labelInput-caixafecha">Valor Total: R$ 1.200,00</label>
+              <br>
+            </fieldset>
+          </form>
+        </div>
+      </div>
 
+    </div>
     </div>
 </body>
 </html>
