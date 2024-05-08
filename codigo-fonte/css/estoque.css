@@ -1,13 +1,62 @@
-.body{
-    transition: .4s;
-    width: 100%;
-    height: 100%;
-    margin-top: 5px;
-    position: static;
-    display: flex;
-    padding: 5px 5px 5px 5px;
-    
+.boxestoque{
+    display: inline;
+    padding: 10px;
 }
+
+.fieldsetestoque{
+    border-color: cornflowerblue;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+#botaoedit,
+#botaodelete{
+    color: cornflowerblue;
+    margin: 10px;
+    cursor: pointer;
+}
+
+
+.inputUser-estoque{
+    border-color: rgb(0, 0, 0);
+    background: none;
+    border-radius: 10px;
+    outline: none;
+    height: 35px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    width: 350px;
+    letter-spacing: 1px;    
+    ;}
+
+
+#submit-estoque{
+    background-image: linear-gradient(to right,rgb(76, 145, 225), rgb(74, 65, 238));
+    width: 150px;
+    margin-left: 30px;
+    border: none;
+    padding: 15px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+#submit-estoque:hover{
+    
+    background-image: linear-gradient(to right,rgb(31, 115, 212), rgb(19, 42, 195));
+
+}
+
+#submit-estoque:active{
+    font-size: 14px;
+    opacity: 0.5;
+
+}
+
+
+
+/*Tabela*/
 
 table,
 td,
@@ -15,75 +64,34 @@ tr{
     margin-top: 10px;
     padding: 20px;
     border-collapse: collapse;
-    position: static;
     border: 1px solid white;
-    width: 300px; /* largura desejada */
-    margin: 0 auto;
+    
 
 }
 
+#descricao, #cliente{
+    column-width: 350px;
+}
+#prod{
+    column-width: 350px;
+}
 
-th {
-    background-color: rgb(76, 145, 225);
+#qtd,
+#acao,
+#id,
+#valor{
+    column-width: 120px;
+}
+
+
+.tabcabeca{
+    background-color: cornflowerblue;
     color: white;
-    height: 40px;
-}
-
-.adc {
-        display: flex;
-        background-image: linear-gradient(to right,rgb(76, 145, 225), rgb(74, 65, 238));
-        width: auto;
-        border: none;
-        padding: 15px;
-        margin-right: 36%;
-        margin-bottom: 20px;
-        color: white;
-        font-size: 15px;
-        cursor: pointer;
-        border-radius: 10px;
-        float: right;
-
-}
-
-.adc:hover {
-    background-image: linear-gradient(to right,rgb(31, 115, 212), rgb(19, 42, 195));
-
-}
-
-.buscar {
-    display: flex;
-    background-image: linear-gradient(to right,rgb(76, 145, 225), rgb(74, 65, 238));
-    width: auto;
-    border: none;
-    padding: 15px;
-    margin-right: 0.3%;
-    margin-bottom: 50%;
-    color: white;
-    font-size: 15px;
-    cursor: pointer;
-    border-radius: 10px;
-    float: right;
-}
-
-.buscar:hover {
-    background-image: linear-gradient(to right,rgb(31, 115, 212), rgb(19, 42, 195));
-
-}
-
-#botaoedit, #botaodelete {
-    color: cornflowerblue;
-    cursor: pointer;
-}
-
-#botaodelete:hover {
-    color: red;
 }
 
 .perfiluser {
+    background-color: transparent;
     border-radius: 50%;
     border: none;
-    background-color: transparent;
     cursor: pointer;
-    color: white;
-
 }
