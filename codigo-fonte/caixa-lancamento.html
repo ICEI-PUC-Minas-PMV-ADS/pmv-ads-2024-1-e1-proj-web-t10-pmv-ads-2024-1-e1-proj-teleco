@@ -59,7 +59,83 @@
       </div>
     </div>
     <div class="corpo">   
-
+      <div class="tabelacaixalancamento divcorpo">
+        <div class="boxcaixalancamento divcorpo">
+          <form action="">
+            <fieldset class="fieldsetcaixalancamento">
+              <br>
+              <div class="inputBox-caixalancamento">
+                <label for="dataini" class="labelInput-caixalancamento">Data:</label>
+                <input type="date" name="dataini" id="dataini" class="inputUser-caixalancamento" required>
+              </div>
+              <br>
+              <br>
+              <div class="inputBox-caixalancamento">
+                <label for="valor" class="labelInput-caixalancamento">Valor:</label>
+                <input type="number" name="valor" id="valor" class="inputUser-caixalancamento" required>
+              </div>
+              <div class="inputBox-caixalancamento">
+                <label for="comodato" class="labelInput-pdv">Tipo de Lançamento: </label>
+                <input type="radio" name="comodato" id="comodato" class="radio-venda" required>
+                <label for="comodato" class="labelInput-pdv">Entrada</label>
+                <input type="radio" name="comodato" id="venda" class="radio-comodato" required >
+                <label for="comodato" class="labelInput-pdv">Saida</label>
+              </div>
+              <br>
+              <input type="submit" name="submit" value="Concluir" id="submit-caixalancamento">
+            </fieldset>
+          </form>
+        </div>
+        <table class="tabelavendas">
+          <thead>
+            <tr class="tabcabeca">
+              <th id="data">Data da Operação</th>
+              <th id="valor">Valor</th>
+              <th id="user">Usuário</th>
+              <th id="tipo">Tipo de Operação</th>
+              <th id="acao">Ação</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>10/05/2024</td>
+              <td>R$ 200,00</td>
+              <td>fulano</td>
+              <td>Saida</td>
+              <td><i class="bi bi-trash-fill" id="botaodelete"></i><i class="bi bi-pencil-square" id="botaoedit"></i></td>
+            </tr>
+            <tr>
+              <td>10/05/2024</td>
+              <td>R$ 200,00</td>
+              <td>fulano</td>
+              <td>Saida</td>
+              <td><i class="bi bi-trash-fill" id="botaodelete"></i><i class="bi bi-pencil-square" id="botaoedit"></i></td>
+            </tr>
+            <tr>
+              <td>10/05/2024</td>
+              <td>R$ 200,00</td>
+              <td>fulano</td>
+              <td>Saida</td>
+              <td><i class="bi bi-trash-fill" id="botaodelete"></i><i class="bi bi-pencil-square" id="botaoedit"></i></td>
+            </tr>
+            <tr>
+              <td>10/05/2024</td>
+              <td>R$ 200,00</td>
+              <td>fulano</td>
+              <td>Saida</td>
+              <td><i class="bi bi-trash-fill" id="botaodelete"></i><i class="bi bi-pencil-square" id="botaoedit"></i></td>
+            </tr>
+            <tr>
+              <td>10/05/2024</td>
+              <td>R$ 200,00</td>
+              <td>fulano</td>
+              <td>Saida</td>
+              <td><i class="bi bi-trash-fill" id="botaodelete"></i><i class="bi bi-pencil-square" id="botaoedit"></i></td>
+            </tr>
+  
+          </tbody>
+        </table>
+      </div>
     </div> 
 
   
