@@ -7,7 +7,6 @@ As páginas terão como elementos padrões o menu de navegação lateral, o head
 * Font-family: Outfit, sans-serif;
 * Font-size: 20px e 25px.
 
-[Apresente a estrutura padrão da sua aplicação.]
 
 # Tela de Login
 
@@ -17,10 +16,30 @@ As páginas terão como elementos padrões o menu de navegação lateral, o head
 Solicita ao usuário seu login e senha para entrar no sistema.
 <figure> 
   <img src="img/tela-login.png"
-  <figcaption>Figura 2 - Login</figcaption>
+  <figcaption>Figura 1 - Login</figcaption>
+</figure>
+
+# Tela de Ponto de Vendas(PDV)
+
+&nbsp;
+
+
+Facilita os fechamentos de vendas
+<figure> 
+  <img src="img/ponto-de-venda.png"
+  <figcaption>Figura 2 - Ponto de Venda</figcaption>
+</figure>
+
+# LogoTipo
+
+&nbsp;
+
+
+Uma logo simples, com cores que remetem a paleta de cores da empresa
+<figure> 
+  <img src="img/logo-nexum.jpeg"
+  <figcaption>Figura 3 - LogoTipo</figcaption>
 </figure> 
-
-
 > **Links Úteis**:
 >
 > - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
