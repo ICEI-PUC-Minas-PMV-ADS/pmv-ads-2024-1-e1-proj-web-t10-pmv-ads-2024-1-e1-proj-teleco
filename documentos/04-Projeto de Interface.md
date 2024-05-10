@@ -26,23 +26,48 @@ Protótipos de baixa fidelidade apresentam de forma simplificada o design da int
 Aqui estão algumas das telas que vão fazer parte do sistema
 
 <figure> 
-  <img src="img/paglogin.png"
+  <img src="img/tela-login.png"
     <figcaption>Figura 2 - Login</figcaption>
 </figure> 
 
 <figure> 
-  <img src="img/homepage.png"
-    <figcaption>Figura 3 - Home Page</figcaption>
+  <img src="img/ponto-de-venda.png"
+    <figcaption>Figura 3 - Ponto de Venda</figcaption>
 </figure> 
 
 <figure> 
-  <img src="img/consultacliente.png"
-    <figcaption>Figura 4 - Consulta de clientes</figcaption>
+  <img src="img/estoque.png"
+    <figcaption>Figura 4 - Estoque</figcaption>
 </figure> 
 
 <figure> 
-  <img src="img/serviçosprodutos.png"
-    <figcaption>Figura 5 - Serviços/Produtos do cliente</figcaption>
+  <img src="img/lancamento-caixa.png"
+    <figcaption>Figura 5 - Lançamento de caixa</figcaption>
+</figure> 
+
+<figure> 
+  <img src="img/fechamento-caixa.png"
+    <figcaption>Figura 6 - Fechamento de caixa</figcaption>
+</figure> 
+
+<figure> 
+  <img src="img/relatorio-financeiro.png"
+    <figcaption>Figura 7 - Relatório Financeiro</figcaption>
+</figure> 
+
+<figure> 
+  <img src="img/comodato.png"
+    <figcaption>Figura 8 - Relatório Comodato</figcaption>
+</figure> 
+
+<figure> 
+  <img src="img/configuracoes.png"
+    <figcaption>Figura 9 - Configurações</figcaption>
+</figure> 
+
+<figure> 
+  <img src="img/usuarios.png"
+    <figcaption>Figura 10 - Gerenciar Usuários</figcaption>
 </figure> 
  
 > **Links Úteis**:
