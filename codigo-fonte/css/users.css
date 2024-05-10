@@ -22,13 +22,13 @@
 }
 
 .inputUser-user {
-    border-color: rgb(0, 0, 0);
+    border-color: rgb(12, 12, 12);
     background: none;
     display: block;
     border-radius: 10px;
     outline: none;
     height: 35px;
-    color: rgb(0, 0, 0);
+    color: rgb(12, 12, 12);
     font-size: 15px;
     width: 100%;
     letter-spacing: 1px;
@@ -81,7 +81,7 @@
 table,
 th,
 td {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(12, 12, 12);
 }
 
 table {
