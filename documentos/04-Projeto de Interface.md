@@ -27,47 +27,47 @@ Aqui estão algumas das telas que vão fazer parte do sistema
 
 <figure> 
   <img src="img/tela-login.png"
-    <figcaption>Figura 2 - Login</figcaption>
+  <figcaption>Figura 2 - Login</figcaption>
 </figure> 
 
 <figure> 
   <img src="img/ponto-de-venda.png"
-    <figcaption>Figura 3 - Ponto de Venda</figcaption>
+  <figcaption>Figura 3 - Ponto de Venda</figcaption>
 </figure> 
 
 <figure> 
   <img src="img/estoque.png"
-    <figcaption>Figura 4 - Estoque</figcaption>
+  <figcaption>Figura 4 - Estoque</figcaption>
 </figure> 
 
 <figure> 
   <img src="img/lancamento-caixa.png"
-    <figcaption>Figura 5 - Lançamento de caixa</figcaption>
+  <figcaption>Figura 5 - Lançamento de caixa</figcaption>
 </figure> 
 
 <figure> 
   <img src="img/fechamento-caixa.png"
-    <figcaption>Figura 6 - Fechamento de caixa</figcaption>
+  <figcaption>Figura 6 - Fechamento de caixa</figcaption>
 </figure> 
 
 <figure> 
   <img src="img/relatorio-financeiro.png"
-    <figcaption>Figura 7 - Relatório Financeiro</figcaption>
+  <figcaption>Figura 7 - Relatório Financeiro</figcaption>
 </figure> 
 
 <figure> 
   <img src="img/comodato.png"
-    <figcaption>Figura 8 - Relatório Comodato</figcaption>
+  <figcaption>Figura 8 - Relatório Comodato</figcaption>
 </figure> 
 
 <figure> 
   <img src="img/configuracoes.png"
-    <figcaption>Figura 9 - Configurações</figcaption>
+  <figcaption>Figura 9 - Configurações</figcaption>
 </figure> 
 
 <figure> 
   <img src="img/usuarios.png"
-    <figcaption>Figura 10 - Gerenciar Usuários</figcaption>
+  <figcaption>Figura 10 - Gerenciar Usuários</figcaption>
 </figure> 
  
 > **Links Úteis**:
