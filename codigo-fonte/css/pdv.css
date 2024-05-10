@@ -13,6 +13,13 @@
     padding: 15px;
 }
 
+#botaoedit,
+#botaodelete{
+    color: cornflowerblue;
+    margin: 10px;
+    cursor: pointer;
+}
+
 
 .inputBox-pdv{
     position: relative;
