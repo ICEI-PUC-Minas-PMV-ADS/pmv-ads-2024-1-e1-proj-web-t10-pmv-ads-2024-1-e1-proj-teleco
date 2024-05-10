@@ -30,46 +30,55 @@ Aqui estão algumas das telas que vão fazer parte do sistema
   <figcaption>Figura 2 - Login</figcaption>
 </figure> 
 
+&nbsp;
 <figure> 
   <img src="img/ponto-de-venda.png"
   <figcaption>Figura 3 - Ponto de Venda</figcaption>
 </figure> 
 
+&nbsp;
 <figure> 
   <img src="img/estoque.png"
   <figcaption>Figura 4 - Estoque</figcaption>
 </figure> 
 
+&nbsp;
 <figure> 
   <img src="img/lancamento-caixa.png"
   <figcaption>Figura 5 - Lançamento de caixa</figcaption>
 </figure> 
 
+&nbsp;
 <figure> 
   <img src="img/fechamento-caixa.png"
   <figcaption>Figura 6 - Fechamento de caixa</figcaption>
 </figure> 
 
+&nbsp;
 <figure> 
   <img src="img/relatorio-financeiro.png"
   <figcaption>Figura 7 - Relatório Financeiro</figcaption>
 </figure> 
 
+&nbsp;
 <figure> 
   <img src="img/comodato.png"
   <figcaption>Figura 8 - Relatório Comodato</figcaption>
 </figure> 
 
+&nbsp;
 <figure> 
   <img src="img/configuracoes.png"
   <figcaption>Figura 9 - Configurações</figcaption>
 </figure> 
 
+&nbsp;
 <figure> 
   <img src="img/usuarios.png"
   <figcaption>Figura 10 - Gerenciar Usuários</figcaption>
 </figure> 
  
+&nbsp;
 > **Links Úteis**:
 > - [Protótipos vs Wireframes](https://www.nngroup.com/videos/prototypes-vs-wireframes-ux-projects/)
 >- Ferramentas:
