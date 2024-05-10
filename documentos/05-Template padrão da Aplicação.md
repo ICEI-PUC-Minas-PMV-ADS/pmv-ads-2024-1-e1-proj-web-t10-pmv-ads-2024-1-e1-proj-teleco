@@ -9,6 +9,14 @@ As páginas terão como elementos padrões o menu de navegação lateral, o head
 
 [Apresente a estrutura padrão da sua aplicação.]
 
+Tela de Login
+Solicita ao usuário seu login e senha para entrar no sistema.
+<figure> 
+  <img src="img/tela-login.png"
+  <figcaption>Figura 2 - Login</figcaption>
+</figure> 
+
+
 > **Links Úteis**:
 >
 > - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
