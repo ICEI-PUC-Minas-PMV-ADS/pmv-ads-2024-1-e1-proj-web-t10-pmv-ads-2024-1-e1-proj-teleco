@@ -1,6 +1,11 @@
 # Template padrão da Aplicação
+O layout padrão do site foi construído com as linguagens de marcação HTML e CSS, e a linguagem de programação JavaScript foi utilizada para a construção do menu responsivo.
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+As páginas terão como elementos padrões o menu de navegação lateral, o header e o , além dos elementos de identidade visual citados abaixo:
+
+* Cores: rgb(232, 232, 232), rgb(45, 45, 45), cornflowerblue, rgba(255,255,255 , 0.1), white, rgb(76, 145, 225), rgb(74, 65, 238);
+* Font-family: Outfit, sans-serif;
+* Font-size: 20px e 25px.
 
 [Apresente a estrutura padrão da sua aplicação.]
 
