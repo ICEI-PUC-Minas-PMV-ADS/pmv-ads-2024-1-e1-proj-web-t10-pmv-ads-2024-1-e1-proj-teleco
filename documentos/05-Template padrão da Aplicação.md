@@ -39,7 +39,8 @@ Uma logo simples, com cores que remetem a paleta de cores da empresa
 <figure> 
   <img src="img/logo-nexum.jpeg"
   <figcaption>Figura 3 - LogoTipo</figcaption>
-</figure> 
+</figure>
+ 
 > **Links Úteis**:
 >
 > - [CSS Website Layout (W3Schools)](https://www.w3schools.com/css/css_website_layout.asp)
