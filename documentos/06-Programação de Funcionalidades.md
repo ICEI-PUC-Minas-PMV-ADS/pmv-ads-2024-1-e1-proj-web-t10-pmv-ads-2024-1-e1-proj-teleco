@@ -241,6 +241,39 @@ style.css
 
 [Adicione as orientações de acesso à funcionalidade]
 
+### Tela de Estoque (RF-07)
+
+Responsável: Arthur
+
+A aplicação deve relatar o que há no estoque físico.
+
+<figure> 
+  <img src="img/estoque.png"
+  <figcaption>Figura 7 - Lançamento de Caixa</figcaption>
+</figure>
+
+
+#### Requisito atendido
+
+RF-07
+
+A aplicação deve relatar o que há no estoque físico.
+
+#### Artefatos da funcionalidade
+
+estoque.html
+estoque.html
+https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css
+style.css
+
+#### Estrutura de Dados
+
+[Caso exista estrutura de dados, adicione aqui]
+
+
+#### Instruções de acesso
+
+[Adicione as orientações de acesso à funcionalidade]
 > **Links Úteis**:
 > - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
 > - [JSON Tutorial](https://www.w3resource.com/JSON)
