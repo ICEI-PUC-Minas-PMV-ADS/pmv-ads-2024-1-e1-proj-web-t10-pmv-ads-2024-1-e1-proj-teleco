@@ -11,14 +11,13 @@ body {
     background-color: rgb(232, 232, 232);
     min-height: 100vh;
     margin-right: 10px;
-    overflow-x: hidden;
     overflow-y: hidden;
 
 }
 
 .side-bar{
     width: 80px;
-    height: 100vh;
+    height: 100%;
     padding: 0px 0 10px;
     background-color:rgb(45, 45, 45);
     box-shadow: 5px 0 0  cornflowerblue;
@@ -120,8 +119,7 @@ background-color: cornflowerblue;
     margin-top: 5px;
     position: static;
     display: flex;
-    margin-left: 330px;
-    padding: 5px 5px 5px 5px;
+    padding: 5px 5px 5px 330px;
     
 }
 
