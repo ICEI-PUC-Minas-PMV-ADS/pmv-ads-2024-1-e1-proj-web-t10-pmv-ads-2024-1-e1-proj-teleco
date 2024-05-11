@@ -74,7 +74,7 @@ Aqui estão algumas das telas que vão fazer parte do sistema
 
 &nbsp;
 <figure> 
-  <img src="img/usuarioflow.png"
+  <img src="img/prototipo-usuario.png"
   <figcaption>Figura 10 - Gerenciar Usuários</figcaption>
 </figure> 
  
