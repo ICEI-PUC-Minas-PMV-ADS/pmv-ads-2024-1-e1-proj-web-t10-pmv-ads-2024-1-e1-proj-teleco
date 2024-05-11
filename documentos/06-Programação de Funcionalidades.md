@@ -42,7 +42,10 @@ Responsável: Guilherme
 A aplicação deve permitir ao usuário fazer login no sistema, com um campo para preencher o nome de usuário e um para digitar a senha.
 Protótipo da tela:
 
-![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-teleco/assets/164881985/e710d548-240a-4d3f-b345-63ae18f19e62)
+<figure> 
+  <img src="img/tela-login.png"
+  <figcaption>Figura 1 - Tela de Login</figcaption>
+</figure>
 
 
 #### Requisito atendido
@@ -73,7 +76,7 @@ A aplicação deve relatar as operações financeiras ocorridas no sistema.
 
 <figure> 
   <img src="img/lancamento-caixa.png"
-  <figcaption>Figura 1 - Lançamento de Caixa</figcaption>
+  <figcaption>Figura 2 - Lançamento de Caixa</figcaption>
 </figure>
 
 
@@ -108,7 +111,7 @@ A aplicação deve relatar as operações financeiras realizadas no estoque(abas
 
 <figure> 
   <img src="img/relatorio-financeiro.png"
-  <figcaption>Figura 2 - Relatório Financeiro</figcaption>
+  <figcaption>Figura 3 - Relatório Financeiro</figcaption>
 </figure>
 
 
