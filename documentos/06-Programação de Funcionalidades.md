@@ -65,6 +65,75 @@ index.css
 
 [Adicione as orientações de acesso à funcionalidade]
 
+### Tela de Lançamento de Caixa (RF-02)
+
+Responsável: Matheus
+
+A aplicação deve relatar as operações financeiras ocorridas no sistema.
+
+<figure> 
+  <img src="img/lancamento-caixa.png"
+  <figcaption>Figura 1 - Lançamento de Caixa</figcaption>
+</figure>
+
+
+#### Requisito atendido
+
+RF-02 
+
+A aplicação deve relatar as operações financeiras ocorridas no sistema.
+
+#### Artefatos da funcionalidade
+
+caixa-lancamento.css
+caixa-lancamento.html
+https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css
+style.css
+
+#### Estrutura de Dados
+
+[Caso exista estrutura de dados, adicione aqui]
+
+
+#### Instruções de acesso
+
+[Adicione as orientações de acesso à funcionalidade]
+
+
+### Tela de Relatório Financeiro (RF-03)
+
+Responsável: Matheus
+
+A aplicação deve relatar as operações financeiras realizadas no estoque(abastecimento e retirada).
+
+<figure> 
+  <img src="img/relatorio-financeiro.png"
+  <figcaption>Figura 2 - Relatório Financeiro</figcaption>
+</figure>
+
+
+#### Requisito atendido
+
+RF-03
+
+A aplicação deve relatar as operações financeiras realizadas no estoque(abastecimento e retirada).
+
+#### Artefatos da funcionalidade
+
+relatorio-financeiro.html
+relatorio-financeiro.html
+https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css
+style.css
+
+#### Estrutura de Dados
+
+[Caso exista estrutura de dados, adicione aqui]
+
+
+#### Instruções de acesso
+
+[Adicione as orientações de acesso à funcionalidade]
+
 
 > **Links Úteis**:
 > - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
