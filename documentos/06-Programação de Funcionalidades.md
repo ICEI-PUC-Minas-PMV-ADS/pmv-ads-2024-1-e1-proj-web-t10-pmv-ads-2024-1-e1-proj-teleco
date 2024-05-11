@@ -137,6 +137,109 @@ style.css
 
 [Adicione as orientações de acesso à funcionalidade]
 
+### Tela de Gerenciar Usuários (RF-04)
+
+Responsável: Guilherme
+
+A aplicação deve permitir ao usuário editar e alterar seus dados.
+
+<figure> 
+  <img src="img/usuarios.png"
+  <figcaption>Figura 4 - Gerenciar Usuários</figcaption>
+</figure>
+
+
+#### Requisito atendido
+
+RF-04
+
+A aplicação deve permitir ao usuário editar e alterar seus dados.
+
+#### Artefatos da funcionalidade
+
+usuariogerenciar.html
+usuariogerenciar.html
+https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css
+style.css
+
+#### Estrutura de Dados
+
+[Caso exista estrutura de dados, adicione aqui]
+
+
+#### Instruções de acesso
+
+[Adicione as orientações de acesso à funcionalidade]
+
+
+### Tela de Ponto de Venda(PDV) (RF-05)
+
+Responsável: Guilherme
+
+A aplicação deve informar ao usuário quanto a compras, atendimentos e visitas a clientes feitas e programadas.
+
+<figure> 
+  <img src="img/ponto-de-venda.png"
+  <figcaption>Figura 5 - Ponto de Venda</figcaption>
+</figure>
+
+
+#### Requisito atendido
+
+RF-05
+
+A aplicação deve informar ao usuário quanto a compras, atendimentos e visitas a clientes feitas e programadas.
+
+#### Artefatos da funcionalidade
+
+pdv.html
+pdv.html
+https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css
+style.css
+
+#### Estrutura de Dados
+
+[Caso exista estrutura de dados, adicione aqui]
+
+
+#### Instruções de acesso
+
+[Adicione as orientações de acesso à funcionalidade]
+
+
+### Tela de Lançamento de Caixa (RF-06)
+
+Responsável: Matheus
+
+A aplicação deve permitir ao usuário inserir, alterar e deletar informações quanto ao fluxo de caixa.
+
+<figure> 
+  <img src="img/lancamento-caixa.png"
+  <figcaption>Figura 6 - Lançamento de Caixa</figcaption>
+</figure>
+
+
+#### Requisito atendido
+
+RF-06
+
+A aplicação deve permitir ao usuário inserir, alterar e deletar informações quanto ao fluxo de caixa.
+
+#### Artefatos da funcionalidade
+
+caixa-lancamento.html
+caixa-lancamento.html
+https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css
+style.css
+
+#### Estrutura de Dados
+
+[Caso exista estrutura de dados, adicione aqui]
+
+
+#### Instruções de acesso
+
+[Adicione as orientações de acesso à funcionalidade]
 
 > **Links Úteis**:
 > - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
