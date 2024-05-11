@@ -3,10 +3,18 @@
     padding: 10px;
 }
 
+
 .fieldsetestoque{
     border-color: cornflowerblue;
     padding: 15px;
     display: flex;
+    align-items: center;
+}
+
+.fielddialog{
+    border-color: cornflowerblue;
+    width: 100px;
+    padding: 15px;
     align-items: center;
 }
 
@@ -17,6 +25,16 @@
     cursor: pointer;
 }
 
+dialog{
+
+    height: 450px;
+    margin-left: 50%;
+    margin-top: 25%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+}
 
 .inputUser-estoque{
     border-color: rgb(0, 0, 0);
@@ -30,6 +48,18 @@
     letter-spacing: 1px;    
     ;}
 
+#botao-cadastra{
+    background-image: linear-gradient(to right,rgb(76, 145, 225), rgb(74, 65, 238));
+    width: 150px;
+    margin-left: 50%;
+    border: none;
+    padding: 15px;
+    color: white;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+}
 
 #submit-estoque{
     background-image: linear-gradient(to right,rgb(76, 145, 225), rgb(74, 65, 238));
@@ -42,13 +72,13 @@
     cursor: pointer;
     border-radius: 10px;
 }
-#submit-estoque:hover{
+#submit-estoque:hover, #botao-cadastra:hover{
     
     background-image: linear-gradient(to right,rgb(31, 115, 212), rgb(19, 42, 195));
 
 }
 
-#submit-estoque:active{
+#submit-estoque:active, #botao-cadastra:active{
     font-size: 14px;
     opacity: 0.5;
 

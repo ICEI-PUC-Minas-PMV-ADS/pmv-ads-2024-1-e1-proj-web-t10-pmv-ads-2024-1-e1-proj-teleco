@@ -17,13 +17,45 @@
 </head>
 
 <body>
+  <dialog>
+    <div class="boxdialog divcorpo">
+      <form action="">
+        <fieldset class="fielddialog">
+          <div class="inputBox-estoque">
+            <label for="coditem" class="labelInput-estoque">Codigo:</label>
+            <input type="number" name="coditem" id="coditem" class="inputUser-estoque" required>
+          </div>
+          <br>
+          <div class="inputBox-estoque">
+            <label for="produto" class="labelInput-estoque">Drescrição:</label>
+            <input type="text" name="produto" disabled id="produto" class="inputUser-estoque" required>
+          </div>
+          <br>
+          <div class="inputBox-estoque">
+            <label for="qtd" class="labelInput-estoque">Quantidade:</label>
+            <input type="number" name="qtd" id="qtd" class="inputUser-estoque" required>
+          </div>
+          <br>
+          <div class="inputBox-estoque">
+            <label for="vunit" class="labelInput-estoque">Preço:</label>
+            <input type="number" name="vunit" disabled id="vunit" class="inputUser-estoque" required>
+          </div><br>
+          <br>
+          <input type="button" onclick="fechamodal()" class="botao" value="Cadastrar" id="botao-cadastra">
+          
+        </fieldset>
+      </form>
+    </div>
+  </dialog>
   <header>
+
+  </body>
     <nav>
       </div>
       <div class="side-bar active">
         <div class="menu">
           <div class="item"><a href="home.html"><i class="bi bi-house"></i>Home</a></div>
-          <div class="item"><a href="pdv.html"><i class="bi bi-basket2"></i>PDV</a></div>
+          <div class="item"><a href="estoque.html"><i class="bi bi-basket2"></i>estoque</a></div>
           <div class="item estoque"><a><i class="bi bi-upc-scan"></i>Estoque</a></div>
           <div class="item">
             <a class="sub-btn"><i class="bi bi-cash"></i>Caixa<i class="bi bi-caret-right-fill dropdown"></i></a>
@@ -74,7 +106,7 @@
             </div>
             <br>
             <input type="button" value="Pesquisar Produto" id="submit-estoque">
-            <input type="button" value="Cadastrar Produto" id="submit-estoque">
+            <input type="button" onclick="abremodal()" class="botao" value="Cadastrar Produto" id="submit-estoque">
           </fieldset>
         </form>
       </div>
@@ -117,6 +149,7 @@
 
     <div>
     </div>
+    <script src="scripts/estoque.js" type="text/javascript"></script>
 
 </body>
 
