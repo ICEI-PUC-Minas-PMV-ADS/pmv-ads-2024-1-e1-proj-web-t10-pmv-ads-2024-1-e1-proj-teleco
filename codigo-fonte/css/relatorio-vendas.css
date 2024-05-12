@@ -25,12 +25,12 @@
 
 
 .inputUser-relvenda{
-    border-color: rgb(0, 0, 0);
+    border-color: rgb(13, 13, 13);
     background: none;
     border-radius: 10px;
     outline: none;
     height: 35px;
-    color: rgb(0, 0, 0);
+    color: rgb(13, 13, 13);
     font-size: 15px;
     width: 150px;
     letter-spacing: 1px;    
