@@ -1,39 +1,3 @@
-# Programação de Funcionalidades
-
-Implementação da aplicação descritas por meio dos requisitos codificados. 
-
-[Utilize a estrutura abaixo para cada funcionalidade entregue na etapa]
-
-### Título da funcionalidade
-
-[Adicione imagem da funcionalidade/tela]
-
-
-#### Requisito atendido
-
-[RF-X: adicione a descrição do requisito atendido]
-
-
-#### Artefatos da funcionalidade
-
-[Adicione os nomes dos arquivos relacionados ao desenvolvimento da funcionalidade]
-
-
-#### Estrutura de Dados
-
-[Caso exista estrutura de dados, adicione aqui]
-
-
-#### Instruções de acesso
-
-[Adicione as orientações de acesso à funcionalidade]
-
-
-#### Responsável
-
-[Adicione nome do responsável pelo desenvolvimento da funcionalidade]
-
-
 
 ### Tela de Login (RF-01)
 
@@ -59,14 +23,6 @@ https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css
 style.css
 index.css
 
-#### Estrutura de Dados
-
-[Caso exista estrutura de dados, adicione aqui]
-
-
-#### Instruções de acesso
-
-[Adicione as orientações de acesso à funcionalidade]
 
 ### Tela de Lançamento de Caixa (RF-02)
 
@@ -82,9 +38,7 @@ A aplicação deve relatar as operações financeiras ocorridas no sistema.
 
 #### Requisito atendido
 
-RF-02 
-
-A aplicação deve relatar as operações financeiras ocorridas no sistema.
+RF-02 A aplicação deve relatar as operações financeiras ocorridas no sistema.
 
 #### Artefatos da funcionalidade
 
@@ -92,15 +46,6 @@ caixa-lancamento.css
 caixa-lancamento.html
 https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css
 style.css
-
-#### Estrutura de Dados
-
-[Caso exista estrutura de dados, adicione aqui]
-
-
-#### Instruções de acesso
-
-[Adicione as orientações de acesso à funcionalidade]
 
 
 ### Tela de Relatório Financeiro (RF-03)
@@ -117,9 +62,7 @@ A aplicação deve relatar as operações financeiras realizadas no estoque(abas
 
 #### Requisito atendido
 
-RF-03
-
-A aplicação deve relatar as operações financeiras realizadas no estoque(abastecimento e retirada).
+RF-03 A aplicação deve relatar as operações financeiras realizadas no estoque(abastecimento e retirada).
 
 #### Artefatos da funcionalidade
 
@@ -128,14 +71,6 @@ relatorio-financeiro.html
 https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css
 style.css
 
-#### Estrutura de Dados
-
-[Caso exista estrutura de dados, adicione aqui]
-
-
-#### Instruções de acesso
-
-[Adicione as orientações de acesso à funcionalidade]
 
 ### Tela de Gerenciar Usuários (RF-04)
 
@@ -151,9 +86,7 @@ A aplicação deve permitir ao usuário editar e alterar seus dados.
 
 #### Requisito atendido
 
-RF-04
-
-A aplicação deve permitir ao usuário editar e alterar seus dados.
+RF-04 A aplicação deve permitir ao usuário editar e alterar seus dados.
 
 #### Artefatos da funcionalidade
 
@@ -161,15 +94,6 @@ usuariogerenciar.html
 usuariogerenciar.html
 https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css
 style.css
-
-#### Estrutura de Dados
-
-[Caso exista estrutura de dados, adicione aqui]
-
-
-#### Instruções de acesso
-
-[Adicione as orientações de acesso à funcionalidade]
 
 
 ### Tela de Ponto de Venda(PDV) (RF-05)
@@ -186,9 +110,7 @@ A aplicação deve informar ao usuário quanto a compras, atendimentos e visitas
 
 #### Requisito atendido
 
-RF-05
-
-A aplicação deve informar ao usuário quanto a compras, atendimentos e visitas a clientes feitas e programadas.
+RF-05 A aplicação deve informar ao usuário quanto a compras, atendimentos e visitas a clientes feitas e programadas.
 
 #### Artefatos da funcionalidade
 
@@ -196,15 +118,6 @@ pdv.html
 pdv.html
 https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css
 style.css
-
-#### Estrutura de Dados
-
-[Caso exista estrutura de dados, adicione aqui]
-
-
-#### Instruções de acesso
-
-[Adicione as orientações de acesso à funcionalidade]
 
 
 ### Tela de Lançamento de Caixa (RF-06)
@@ -221,9 +134,7 @@ A aplicação deve permitir ao usuário inserir, alterar e deletar informações
 
 #### Requisito atendido
 
-RF-06
-
-A aplicação deve permitir ao usuário inserir, alterar e deletar informações quanto ao fluxo de caixa.
+RF-06 A aplicação deve permitir ao usuário inserir, alterar e deletar informações quanto ao fluxo de caixa.
 
 #### Artefatos da funcionalidade
 
@@ -232,14 +143,6 @@ caixa-lancamento.html
 https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css
 style.css
 
-#### Estrutura de Dados
-
-[Caso exista estrutura de dados, adicione aqui]
-
-
-#### Instruções de acesso
-
-[Adicione as orientações de acesso à funcionalidade]
 
 ### Tela de Estoque (RF-07)
 
@@ -255,9 +158,7 @@ A aplicação deve relatar o que há no estoque físico.
 
 #### Requisito atendido
 
-RF-07
-
-A aplicação deve relatar o que há no estoque físico.
+RF-07 A aplicação deve relatar o que há no estoque físico.
 
 #### Artefatos da funcionalidade
 
@@ -266,17 +167,4 @@ estoque.html
 https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css
 style.css
 
-#### Estrutura de Dados
-
-[Caso exista estrutura de dados, adicione aqui]
-
-
-#### Instruções de acesso
-
-[Adicione as orientações de acesso à funcionalidade]
-> **Links Úteis**:
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
 
