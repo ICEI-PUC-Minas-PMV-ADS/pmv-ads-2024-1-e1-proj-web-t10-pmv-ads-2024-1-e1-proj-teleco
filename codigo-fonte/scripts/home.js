@@ -1,9 +1,8 @@
-/*
 firebase.auth().onAuthStateChanged(user => {
     if (user) {
         var tag = document.getElementById('tagusuario')
-        tag.innerHTML = user.email
-
+        tag.innerHTML = firebase.auth().currentUser.email
+        var id = "BU2j7gEcZYR2dIOGOqiTQfh0DQB3"
     }
 })
 
@@ -16,4 +15,3 @@ function logout() {
         alert('Erro ao fazer logout');
     })
 }
-*/

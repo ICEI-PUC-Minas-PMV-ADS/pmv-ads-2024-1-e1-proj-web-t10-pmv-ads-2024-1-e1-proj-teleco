@@ -20,15 +20,21 @@ function vervenda() {
 $("#cliente").mask("000.000.000-00")
 
 
-/*
 
 //316.230.320-67
 //busca cliente na base de dados do SGP 
 function consultasgp() {
+
+    firebase.firestore()
+        .collection('SGP')
+        .get()
+        .then(snapshot => {
+            var response = snapshot.docs.map(doc => doc.data())
+        
     var cpf = document.getElementById("cliente");
     var formdata = new FormData();
-    formdata.append("token", "cfadf859-6f6b-4d49-b5d6-00dcb82efa19");
-    formdata.append("app", "testepuc");
+    formdata.append("token", response[0].token);
+    formdata.append("app", response[0].app);
     formdata.append("cpfcnpj", cpf.value);
 
     var requestOptions = {
@@ -37,10 +43,11 @@ function consultasgp() {
         redirect: 'follow'
     };
 
-    fetch("https://demo.sgp.net.br/api/ura/consultacliente/", requestOptions)
+    fetch(response[0].url+"/api/ura/consultacliente/", requestOptions)
         .then(response => response.text())
         .then(result => dadossgp(result))
         .catch(error => console.log('error', error));
+    })
 }
 
 //funcao para tratar os dados vindos do sgp
@@ -67,5 +74,3 @@ function nomeCliente(nome) {
     nomeCliente = nomeCliente.split('"')[0];
     return nomeCliente;
 }
-
-*/

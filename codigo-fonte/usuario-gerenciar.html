@@ -9,10 +9,13 @@
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/users.css">
   <script src="scripts/scripts.js" type="text/javascript"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <script src="scripts/config.js" type="text/javascript"></script>
+
 
   <title>Nexum - Usuários</title>
 </head>
-<body>
+<body onload="statusonload()">
     <header>
       <nav>
         </div>
@@ -41,7 +44,7 @@
                 <a class="sub-btn user"><i class="bi bi-person-circle"></i>Conta<i class="bi bi-caret-right-fill dropdown"></i></a>
                 <div class="sub-menu">
                   <a class="sub-item">Gerenciar</a>
-                  <a href="index.html" class="sub-item">Sair</a>
+                  <a class="sub-item" onclick="logout()">Sair</a>
                 </div>
               </div>
         </div>
@@ -51,6 +54,13 @@
     </header>
     <div class="cabecalho">
       <h1>Usuários</h1>
+      <div class="tagusuario">
+        <i class="bi bi-person-circle"></i>
+        <label><span id="tagusuario"></span></label>
+      </div>
+      <div class="tagsgp">
+        <label >Status SGP: <span id="statusconexao"></span></label>      
+      </div>
     </div>
     <div class="corpouser"> 
       <form action="">
@@ -59,7 +69,7 @@
             <br>
             <div class="inputBox-user">
               <label for="email" class="labelInput-user">Email:</label>
-              <input type="email" name="email"  id="email" class="inputUser-user" required>
+              <input type="email" name="email"  id="user" class="inputUser-user" required>
             </div>
             <br>
             <div class="inputBox-user">
@@ -69,10 +79,10 @@
             <br>
             <div class="inputBox-user">
               <label for="confsenha" class="labelInput-user">Confirmar Senha:</label>
-              <input type="password" name="confsenha"  id="confsenha" class="inputUser-user" required>
+              <input type="password" name="confsenha"  id="confirmasenha" class="inputUser-user" required>
             </div>      
             <br><br><br><br>
-            <input type="submit" name="submit" value="Salvar " id="submit-user">
+            <input type="button" onclick="validadorForm()" name="submit" value="Salvar " id="submit-user" class="botaosalvar">
         </fieldset>
     </form>
     <div >
@@ -83,23 +93,24 @@
           <label ><span id="tagusuario"></span></label>      
         </div>
         <table >
-          <tbody>
+          <thead>
             <th>Usuário</th>
             <th>Ação</th>
+          </thead>
+          <tbody id="tabela">
+
           </tbody>
-          <tr>
-            <td>guilherme1991g@hotmail.com</td>
-            <td><i class="bi bi-pencil-square" id="botaoedit"></i></td>
-          </tr>
-          <tr>
-            <td>testeg@hotmail.com</td>
-            <td><i class="bi bi-pencil-square" id="botaoedit"></i></td>
-          </tr>
+
         </table>
       </fieldset>
     </div>
     </div>
-
-  
+    <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-firestore-compat.js"></script>
+    <script src="scripts/init-firebase.js"></script>
+    <script src="scripts/block.js" type="text/javascript"></script>
+    <script src="scripts/home.js" type="text/javascript"></script>
+    <script src="scripts/users.js" type="text/javascript"></script>
 </body>
 </html>

@@ -12,7 +12,12 @@ body {
     min-height: 100vh;
     margin-right: 10px;
     overflow-y: hidden;
+    overflow-x: hidden;
 
+}
+
+.excluir{
+    cursor: pointer;
 }
 
 .side-bar{
@@ -145,6 +150,14 @@ h1 {
 .tagusuario {
     font-size: 15px;
     margin-left: 80%;
+    position: absolute;
+    color: white;
+    display: flex ;
+}
+
+.tagsgp {
+    font-size: 15px;
+    margin-left: 330px;
     position: absolute;
     color: white;
     display: flex ;
