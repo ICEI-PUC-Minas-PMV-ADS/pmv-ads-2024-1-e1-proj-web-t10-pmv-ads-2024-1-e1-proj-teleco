@@ -18,6 +18,7 @@
     align-items: center;
 }
 
+
 #botaoedit,
 #botaodelete{
     color: cornflowerblue;
@@ -48,7 +49,8 @@ dialog{
     letter-spacing: 1px;    
     ;}
 
-#botao-cadastra{
+#botao-cadastra,
+#botaoEditar{
     background-image: linear-gradient(to right,rgb(76, 145, 225), rgb(74, 65, 238));
     width: 150px;
     margin-left: 50%;
@@ -91,11 +93,9 @@ dialog{
 table,
 td,
 tr{
-    margin-top: 10px;
-    padding: 20px;
+    padding: 10px;
     border-collapse: collapse;
     border: 1px solid white;
-    
 
 }
 
@@ -124,4 +124,9 @@ tr{
     border-radius: 50%;
     border: none;
     cursor: pointer;
+}
+
+.corpotable{
+    overflow-y: auto;
+    height: 500px;
 }
