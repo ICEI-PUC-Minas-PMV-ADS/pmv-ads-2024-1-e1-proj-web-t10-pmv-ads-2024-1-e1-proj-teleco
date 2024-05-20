@@ -257,7 +257,7 @@ function fecharvenda() {
                 var data = new Date()
                 data = data.getDate() + "/" + data.getMonth() + "/" + data.getFullYear()
                 arraycomodato.push({
-                    produto: arrayPdv[i - 1].produto, vtotal: arrayPdv[i - 1].vtotal, user, data
+                    produto: arrayPdv[i - 1].produto, qtd: arrayPdv[i - 1].qtd, cliente: arrayPdv[i - 1].cliente, data
                 })
                 localStorage.arraycomodato = JSON.stringify(arraycomodato)
 
