@@ -81,45 +81,43 @@
           <br>
           <div class="inputBox-pdv">
             <label for="coditem" class="labelInput-pdv">Cod. Item:</label>
-            <input type="number" name="coditem" id="coditem" class="inputUser-pdv" required>
+            <input type="number" name="coditem" id="coditem"  onblur="pesquisaproduto()" class="inputUser-pdv" required>
           </div>
           <br>
           <div class="inputBox-pdv">
             <label for="produto" class="labelInput-pdv">Produto:</label>
-            <input type="text" name="produto" disabled id="produto" class="inputUser-pdv" required>
+            <input type="text" name="produto" disabled id="produto" class="inputUser-pdv"  required>
           </div>
           <br>
           <div class="inputBox-pdv">
             <label for="qtd" class="labelInput-pdv">Qtd.:</label>
-            <input type="number" name="qtd" id="qtd" class="inputUser-pdv" required>
+            <input type="number" name="qtd" id="qtd" class="inputUser-pdv" value="1" oninput="pesquisaproduto()" required>
           </div>
           <br>
           <div class="inputBox-pdv">
             <label for="vunit" class="labelInput-pdv">Valor Unitário:</label>
-            <input type="number" name="vunit" disabled id="vunit" class="inputUser-pdv" required>
+            <input type="text" name="vunit" disabled id="vunit" class="inputUser-pdv" required placeholder="R$ 0.00">
           </div>
           <br>
           <div class="inputBox-pdv">
             <label for="vtotal" class="labelInput-pdv">Valor Total:</label>
-            <input type="number" name="vtotal" disabled id="vtotal" class="inputUser-pdv" required>
+            <input type="text" name="vtotal" disabled id="vtotal" class="inputUser-pdv" required placeholder="R$ 0.00">
           </div>
           <br>
           <div class="inputBox-pdv">
-            <input type="radio" onchange="vervenda()" name="comodato" id="comodato" class="radio-venda" required>
+            <input type="radio" onchange="vervenda()" name="comodato" id="comodato" value="venda" class="radio-venda" required>
             <label for="comodato" class="labelInput-pdv">Venda</label>
-            <input type="radio" onclick="vercomodato()" name="comodato" id="venda" class="radio-comodato" required>
+            <input type="radio" onclick="vercomodato()" name="comodato" id="venda" value="comodato" class="radio-comodato" required>
             <label for="comodato" class="labelInput-pdv">Comodato</label>
           </div>
           <br>
           <div class="inputBox-pdv">
             <label for="cliente" class="labelInput-pdv">Cliente CPF:</label>
             <input type="text" name="cliente" id="cliente" class="inputUser-pdv cpf">
-            <label for="cliente" class="labelInput-pdv">Cliente: <span id="labelcliente"></span></label>
-
           </div>
           <br>
           <input type="button" onclick="consultasgp()" name="button" value="Consultar Cliente" id="consultaCliente">
-          <input type="submit" name="submit" value="Adicionar" id="submit-pdv">
+          <input type="button" onclick="insereDados()" name="submit" value="Adicionar" id="submit-pdv">
 
 
 
@@ -133,6 +131,7 @@
       <table class="tabelavendas">
         <thead>
           <tr class="colunavendas">
+            <th id="cliente">Cliente</th>
             <th id="cod">Cod. Item</th>
             <th id="descricao">Descrição</th>
             <th id="qtd">Quantidade</th>
@@ -141,52 +140,12 @@
             <th id="acao">Ação</th>
           </tr>
         </thead>
-        <tbody>
-          <tr>
-            <td>123</td>
-            <td>Produto 1 marca nova</td>
-            <td>3</td>
-            <td>R$ 20,00</td>
-            <td>R$ 60,00</td>
-            <td><i class="bi bi-pencil-square" id="botaoedit"></i><i class="bi bi-trash-fill" id="botaodelete"></i></td>
-          </tr>
-          <tr>
-            <td>123</td>
-            <td>Produto 1 marca nova</td>
-            <td>3</td>
-            <td>R$ 20,00</td>
-            <td>R$ 60,00</td>
-            <td><i class="bi bi-pencil-square" id="botaoedit"></i><i class="bi bi-trash-fill" id="botaodelete"></i></td>
-          </tr>
-          <tr>
-            <td>123</td>
-            <td>Produto 1 marca nova</td>
-            <td>3</td>
-            <td>R$ 20,00</td>
-            <td>R$ 60,00</td>
-            <td><i class="bi bi-pencil-square" id="botaoedit"></i><i class="bi bi-trash-fill" id="botaodelete"></i></td>
-          </tr>
-          <tr>
-            <td>123</td>
-            <td>Produto 1 marca nova</td>
-            <td>3</td>
-            <td>R$ 20,00</td>
-            <td>R$ 60,00</td>
-            <td><i class="bi bi-pencil-square" id="botaoedit"></i><i class="bi bi-trash-fill" id="botaodelete"></i></td>
-          </tr>
-          <tr>
-            <td>123</td>
-            <td>Produto 1 marca nova</td>
-            <td>3</td>
-            <td>R$ 20,00</td>
-            <td>R$ 60,00</td>
-            <td><i class="bi bi-pencil-square" id="botaoedit"></i><i class="bi bi-trash-fill" id="botaodelete"></i></td>
-          </tr>
+        <tbody id="tabela">
 
         </tbody>
       </table>
       <div class="boxbotaofechavenda">
-        <input type="button" value="Fechar Venda" name="botaofechavenda" class="botaofechavenda">
+        <input type="button" onclick="inserelocalstorage()" value="Fechar Venda" name="botaofechavenda" class="botaofechavenda">
       </div>
     </div>
   </div>

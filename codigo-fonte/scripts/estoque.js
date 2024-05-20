@@ -82,17 +82,11 @@ function pegadados() {
         let tdvalor = tr.insertCell()
         let tdAcao = tr.insertCell()
 
-        tdcod.setAttribute("class", "tdcod");
-        tdproduto.setAttribute("class", "tdproduto");
-        tdqtd.setAttribute("class", "tdqtd");
-        tdvalor.setAttribute("class", "tdvalor");
-        tdAcao.setAttribute("class", "tdAcao");
-
 
         tdcod.innerText = arrayEstoque[i - 1].codItem
         tdproduto.innerText = arrayEstoque[i - 1].produto
         tdqtd.innerText = arrayEstoque[i - 1].qtd
-        tdvalor.innerText = arrayEstoque[i - 1].vunit
+        tdvalor.innerText = "R$ "+parseFloat(arrayEstoque[i - 1].vunit).toFixed(2)
         var id = arrayEstoque[i - 1].codItem
 
         let botaoedit = document.createElement('i')
