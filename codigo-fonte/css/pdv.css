@@ -97,6 +97,13 @@ tr{
 
 }
 
+.boxresultado{
+    display: inline;
+    padding: 5px;
+    font-size: 20px;
+    color: brown;
+    font-style:normal;
+}
 
 #cod,
 #qtd,

@@ -175,7 +175,6 @@ function editaproduto(i) {
     array[i].qtd = qtde.value
     array[i].vunit = vunite.value
     array[i].produto = produtoe.value
-    console.log(array)
     localStorage.arrayEstoque = JSON.stringify(array)
     modaledit.close()
     location.reload()
