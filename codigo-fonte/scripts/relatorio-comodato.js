@@ -41,3 +41,29 @@ function deletar(id) {
             tabela.deleteRow(i-1)
             location.reload()
 }
+
+
+function filtraDados() {
+
+    const busca = document.getElementById('busca');
+    const tabela = document.getElementById('tabela');
+
+    let expressao = busca.value.toLowerCase();
+
+    let linhas = tabela.getElementsByTagName('tr');
+
+    for (let posicao in linhas) {
+        if (true === isNaN(posicao)) {
+            continue;
+        }
+
+        let conteudoDaLinha = linhas[posicao].innerHTML.toLowerCase();
+
+        if (true === conteudoDaLinha.includes(expressao)) {
+            linhas[posicao].style.display = '';
+        } else {
+            linhas[posicao].style.display = 'none';
+            tabela.deleteRow(posicao)
+        }
+    }
+}

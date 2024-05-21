@@ -91,6 +91,14 @@ tr{
     color: white;
 }
 
+.labelInput-relvendas{
+    margin-left: 15px;
+}
+
+.corpotable{
+    overflow-y: auto;
+    height: 400px;
+}
 
 .inputUser-relvendas{
     border-color: rgb(13, 13, 13);
@@ -100,7 +108,7 @@ tr{
     height: 35px;
     color: rgb(13, 13, 13);
     font-size: 15px;
-    width: 150px;
+    width: 350px;
     letter-spacing: 1px;    
 }
 .fieldsetrelvendas{

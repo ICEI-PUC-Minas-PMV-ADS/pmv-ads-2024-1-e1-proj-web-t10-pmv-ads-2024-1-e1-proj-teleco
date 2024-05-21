@@ -166,32 +166,32 @@ function insereDados() {
 
         for (i = count; i > 0; i--) {
 
-            if (arrayEstoque[i - 1].produto == produto.value){
-            
-            if (parseFloat(arrayEstoque[i - 1].qtd) - parseFloat(qtd.value) <= 0) {
-                swal("Estoque insuficiente")
-            }else{
-                if (localStorage.arrayPdv) {
-                    arrayPdv = JSON.parse(localStorage.getItem('arrayPdv'))
+            if (arrayEstoque[i - 1].produto == produto.value) {
+
+                if (parseFloat(arrayEstoque[i - 1].qtd) - parseFloat(qtd.value) <= 0) {
+                    swal("Estoque insuficiente")
+                } else {
+                    if (localStorage.arrayPdv) {
+                        arrayPdv = JSON.parse(localStorage.getItem('arrayPdv'))
+                    }
+                    else {
+                        arrayPdv = []
+                    }
+                    arrayPdv.push({
+                        cliente: cliente.value, codItem: codItem.value, produto: produto.value,
+                        qtd: qtd.value, vunit: vunit.value.split(' ')[1], tipo: radio.value, vtotal: vtotal.value.split(' ')[1]
+                    })
+                    localStorage.arrayPdv = JSON.stringify(arrayPdv)
+
+                    codItem.value = ''
+                    cliente.value = ''
+                    produto.value = ''
+                    qtd.value = '1'
+                    vunit.value = 'R$ 0.00'
+                    vtotal.value = 'R$ 0.00'
+                    location.reload()
                 }
-                else {
-                    arrayPdv = []
-                }
-                arrayPdv.push({
-                    cliente: cliente.value, codItem: codItem.value, produto: produto.value,
-                    qtd: qtd.value, vunit: vunit.value.split(' ')[1], tipo: radio.value, vtotal: vtotal.value.split(' ')[1]
-                })
-                localStorage.arrayPdv = JSON.stringify(arrayPdv)
-        
-                codItem.value = ''
-                cliente.value = ''
-                produto.value = ''
-                qtd.value = '1'
-                vunit.value = 'R$ 0.00'
-                vtotal.value = 'R$ 0.00'
-                location.reload()
             }
-        }
         }
 
 
@@ -250,6 +250,20 @@ function fecharvenda() {
                 arrayvenda.push({ produto: arrayPdv[i - 1].produto, vtotal: arrayPdv[i - 1].vtotal, user, data })
 
                 localStorage.arrayvenda = JSON.stringify(arrayvenda)
+
+
+                //============================================
+                //=============insere no caixa================
+                var total = document.getElementById('resultado').textContent
+                if (localStorage.arraycaixa) {
+                    arraycaixa = JSON.parse(localStorage.getItem('arraycaixa'))
+                }
+                else {
+                    arraycaixa = []
+                }
+                arraycaixa.push({ valor: parseFloat(arrayPdv[i - 1].vtotal), tipo: 'Venda'})
+                localStorage.arraycaixa = JSON.stringify(arraycaixa)
+                //============================================
 
             }
 

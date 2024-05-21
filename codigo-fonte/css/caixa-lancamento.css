@@ -9,6 +9,11 @@
     font-size: 20px;
 }
 
+.corpotable{
+    overflow-y: auto;
+    height: 400px;
+}
+
 .fieldsetcaixalancamento{
     border-color: cornflowerblue;
     padding: 15px;

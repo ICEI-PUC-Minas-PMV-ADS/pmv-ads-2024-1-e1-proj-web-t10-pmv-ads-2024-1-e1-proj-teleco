@@ -7,6 +7,11 @@
     font-family: 'Outfit', sans-serif;
 }
 
+.corpotable{
+    overflow-y: auto;
+    height: 400px;
+}
+
 body {
     background-color: rgb(232, 232, 232);
     min-height: 100vh;

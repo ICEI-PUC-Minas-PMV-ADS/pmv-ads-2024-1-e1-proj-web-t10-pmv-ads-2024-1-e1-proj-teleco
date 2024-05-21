@@ -17,6 +17,11 @@
     cursor: pointer;
 }
 
+.corpotable{
+    overflow-y: auto;
+    height: 400px;
+}
+
 
 .inputUser-relcomo{
     border-color: rgb(0, 0, 0);

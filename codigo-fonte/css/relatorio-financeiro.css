@@ -2,7 +2,10 @@
     display: inline;
     padding: 10px;
 }
-
+.corpotable{
+    overflow-y: auto;
+    height: 400px;
+}
 .boxresultado{
     display: inline;
     padding: 10px;
