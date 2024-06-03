@@ -102,3 +102,18 @@ tr{
     color: white;
 }
 
+.btn-remove {
+    color: cornflowerblue;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-edit {
+    color: cornflowerblue;
+    padding: 5px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
