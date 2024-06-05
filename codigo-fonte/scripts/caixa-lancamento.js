@@ -1,4 +1,4 @@
-document.addEventListener('DOMContentLoaded', loadTransactions);
+document.addEventListener('DOMContentLoaded', loadarrayfinanceiros);
 
 function insereDados() {
     const valorInput = document.getElementById('valor');
@@ -12,7 +12,7 @@ function insereDados() {
         return;
     }
 
-    const transaction = {
+    const arrayfinanceiro = {
         id: generateID(),
         date: new Date().toLocaleString(),
         valor: valor.toFixed(2),
@@ -20,8 +20,8 @@ function insereDados() {
         tipo: tipo
     };
 
-    saveTransactionLocalStorage(transaction);
-    addTransactionDOM(transaction);
+    savearrayfinanceiroLocalStorage(arrayfinanceiro);
+    addarrayfinanceiroDOM(arrayfinanceiro);
     valorInput.value = '';
     entradaRadio.checked = false;
     saidaRadio.checked = false;
@@ -31,56 +31,56 @@ function generateID() {
     return Math.floor(Math.random() * 1000000);
 }
 
-function addTransactionDOM(transaction) {
+function addarrayfinanceiroDOM(arrayfinanceiro) {
     const tabela = document.getElementById('tabela');
     const row = document.createElement('tr');
 
     row.innerHTML = `
-        <td>${transaction.date}</td>
-        <td>${transaction.valor}</td>
-        <td>${transaction.user}</td>
-        <td>${transaction.tipo}</td>
-        <td><button onclick="removeTransaction(${transaction.id})">Remover</button></td>
+        <td>${arrayfinanceiro.date}</td>
+        <td>${arrayfinanceiro.valor}</td>
+        <td>${arrayfinanceiro.user}</td>
+        <td>${arrayfinanceiro.tipo}</td>
+        <td><button onclick="removearrayfinanceiro(${arrayfinanceiro.id})">Remover</button></td>
     `;
     
     tabela.appendChild(row);
 }
 
-function saveTransactionLocalStorage(transaction) {
-    let transactions = getTransactionsLocalStorage();
-    transactions.push(transaction);
-    localStorage.setItem('transactions', JSON.stringify(transactions));
+function savearrayfinanceiroLocalStorage(arrayfinanceiro) {
+    let arrayfinanceiros = getarrayfinanceirosLocalStorage();
+    arrayfinanceiros.push(arrayfinanceiro);
+    localStorage.setItem('arrayfinanceiros', JSON.stringify(arrayfinanceiros));
 }
 
-function getTransactionsLocalStorage() {
-    return localStorage.getItem('transactions') ? JSON.parse(localStorage.getItem('transactions')) : [];
+function getarrayfinanceirosLocalStorage() {
+    return localStorage.getItem('arrayfinanceiros') ? JSON.parse(localStorage.getItem('arrayfinanceiros')) : [];
 }
 
-function loadTransactions() {
-    let transactions = getTransactionsLocalStorage();
-    transactions.forEach(addTransactionDOM);
+function loadarrayfinanceiros() {
+    let arrayfinanceiros = getarrayfinanceirosLocalStorage();
+    arrayfinanceiros.forEach(addarrayfinanceiroDOM);
 }
 
-function removeTransaction(id) {
-    let transactions = getTransactionsLocalStorage();
-    transactions = transactions.filter(transaction => transaction.id !== id);
-    localStorage.setItem('transactions', JSON.stringify(transactions));
+function removearrayfinanceiro(id) {
+    let arrayfinanceiros = getarrayfinanceirosLocalStorage();
+    arrayfinanceiros = arrayfinanceiros.filter(arrayfinanceiro => arrayfinanceiro.id !== id);
+    localStorage.setItem('arrayfinanceiros', JSON.stringify(arrayfinanceiros));
     document.getElementById('tabela').innerHTML = '';
-    transactions.forEach(addTransactionDOM);
+    arrayfinanceiros.forEach(addarrayfinanceiroDOM);
 }
 
 
-function addTransactionDOM(transaction) {
+function addarrayfinanceiroDOM(arrayfinanceiro) {
     const tabela = document.getElementById('tabela');
     const row = document.createElement('tr');
 
     row.innerHTML = `
-        <td>${transaction.date}</td>
-        <td>${transaction.valor}</td>
-        <td>${transaction.user}</td>
-        <td>${transaction.tipo}</td>
+        <td>${arrayfinanceiro.date}</td>
+        <td>${arrayfinanceiro.valor}</td>
+        <td>${arrayfinanceiro.user}</td>
+        <td>${arrayfinanceiro.tipo}</td>
         <td>
-            <button class="btn-remove" onclick="removeTransaction(${transaction.id})">
+            <button class="btn-remove" onclick="removearrayfinanceiro(${arrayfinanceiro.id})">
                 <i class="bi bi-trash"></i>
             </button>
         </td>
@@ -89,20 +89,20 @@ function addTransactionDOM(transaction) {
 }
 
 
-function addTransactionDOM(transaction) {
+function addarrayfinanceiroDOM(arrayfinanceiro) {
     const tabela = document.getElementById('tabela');
     const row = document.createElement('tr');
 
     row.innerHTML = `
-        <td>${transaction.date}</td>
-        <td>${transaction.valor}</td>
-        <td>${transaction.user}</td>
-        <td>${transaction.tipo}</td>
+        <td>${arrayfinanceiro.date}</td>
+        <td>${arrayfinanceiro.valor}</td>
+        <td>${arrayfinanceiro.user}</td>
+        <td>${arrayfinanceiro.tipo}</td>
         <td>
-            <button class="btn-edit" onclick="editTransaction(${transaction.id})">
+            <button class="btn-edit" onclick="editarrayfinanceiro(${arrayfinanceiro.id})">
                 <i class="bi bi-pencil"></i>
             </button>
-            <button class="btn-remove" onclick="removeTransaction(${transaction.id})">
+            <button class="btn-remove" onclick="removearrayfinanceiro(${arrayfinanceiro.id})">
                 <i class="bi bi-trash"></i>
             </button>
         </td>
@@ -110,38 +110,38 @@ function addTransactionDOM(transaction) {
     tabela.appendChild(row);
 }
 
-function editTransaction(id) {
-    let transactions = getTransactionsLocalStorage();
-    let transaction = transactions.find(transaction => transaction.id === id);
+function editarrayfinanceiro(id) {
+    let arrayfinanceiros = getarrayfinanceirosLocalStorage();
+    let arrayfinanceiro = arrayfinanceiros.find(arrayfinanceiro => arrayfinanceiro.id === id);
 
-    if (transaction) {
-        document.getElementById('valor').value = transaction.valor;
-        if (transaction.tipo === 'entrada') {
+    if (arrayfinanceiro) {
+        document.getElementById('valor').value = arrayfinanceiro.valor;
+        if (arrayfinanceiro.tipo === 'entrada') {
             document.getElementById('comodato').checked = true;
         } else {
             document.getElementById('venda').checked = true;
         }
 
-        removeTransaction(id); // Remover a transação antiga para substituir pela nova
+        removearrayfinanceiro(id); // Remover a transação antiga para substituir pela nova
     }
 }
 
-let editTransactionId = null;
+let editarrayfinanceiroId = null;
 
-function addTransactionDOM(transaction) {
+function addarrayfinanceiroDOM(arrayfinanceiro) {
     const tabela = document.getElementById('tabela');
     const row = document.createElement('tr');
 
     row.innerHTML = `
-        <td>${transaction.date}</td>
-        <td>${transaction.valor}</td>
-        <td>${transaction.user}</td>
-        <td>${transaction.tipo}</td>
+        <td>${arrayfinanceiro.date}</td>
+        <td>${arrayfinanceiro.valor}</td>
+        <td>${arrayfinanceiro.user}</td>
+        <td>${arrayfinanceiro.tipo}</td>
         <td>
-            <button class="btn-edit" onclick="openEditModal(${transaction.id})">
+            <button class="btn-edit" onclick="openEditModal(${arrayfinanceiro.id})">
                 <i class="bi bi-pencil-square"></i>
             </button>
-            <button class="btn-remove" onclick="removeTransaction(${transaction.id})">
+            <button class="btn-remove" onclick="removearrayfinanceiro(${arrayfinanceiro.id})">
                 <i class="bi bi-trash-fill"></i>
             </button>
         </td>
@@ -150,18 +150,18 @@ function addTransactionDOM(transaction) {
 }
 
 function openEditModal(id) {
-    let transactions = getTransactionsLocalStorage();
-    let transaction = transactions.find(transaction => transaction.id === id);
+    let arrayfinanceiros = getarrayfinanceirosLocalStorage();
+    let arrayfinanceiro = arrayfinanceiros.find(arrayfinanceiro => arrayfinanceiro.id === id);
 
-    if (transaction) {
-        document.getElementById('editValor').value = transaction.valor;
-        if (transaction.tipo === 'entrada') {
+    if (arrayfinanceiro) {
+        document.getElementById('editValor').value = arrayfinanceiro.valor;
+        if (arrayfinanceiro.tipo === 'entrada') {
             document.getElementById('editEntrada').checked = true;
         } else {
             document.getElementById('editSaida').checked = true;
         }
 
-        editTransactionId = id;
+        editarrayfinanceiroId = id;
         document.getElementById('editModal').style.display = 'block';
     }
 }
@@ -171,13 +171,13 @@ function closeModal() {
 }
 
 function saveEdit() {
-    let transactions = getTransactionsLocalStorage();
-    let transaction = transactions.find(transaction => transaction.id === editTransactionId);
+    let arrayfinanceiros = getarrayfinanceirosLocalStorage();
+    let arrayfinanceiro = arrayfinanceiros.find(arrayfinanceiro => arrayfinanceiro.id === editarrayfinanceiroId);
 
-    if (transaction) {
-        transaction.valor = document.getElementById('editValor').value;
-        transaction.tipo = document.querySelector('input[name="editTipo"]:checked').value;
-        setTransactionsLocalStorage(transactions);
+    if (arrayfinanceiro) {
+        arrayfinanceiro.valor = document.getElementById('editValor').value;
+        arrayfinanceiro.tipo = document.querySelector('input[name="editTipo"]:checked').value;
+        setarrayfinanceirosLocalStorage(arrayfinanceiros);
         refreshTable();
         closeModal();
     }
@@ -186,6 +186,6 @@ function saveEdit() {
 function refreshTable() {
     const tabela = document.getElementById('tabela');
     tabela.innerHTML = '';
-    let transactions = getTransactionsLocalStorage();
-    transactions.forEach(transaction => addTransactionDOM(transaction));
+    let arrayfinanceiros = getarrayfinanceirosLocalStorage();
+    arrayfinanceiros.forEach(arrayfinanceiro => addarrayfinanceiroDOM(arrayfinanceiro));
 }
