@@ -1,7 +1,9 @@
-document.addEventListener('DOMContentLoaded', loadarrayfinanceiros);
+document.addEventListener('DOMContentLoaded', () => {
+    loadarrayfinanceiros();
+    setUser();
+});
 
 function setUser() {
-    // Supondo que o usuário esteja armazenado em localStorage
     let user = localStorage.getItem('username') || 'Usuário Desconhecido';
     document.getElementById('tagusuario').textContent = user;
 }
@@ -10,12 +12,16 @@ function insereDados() {
     const valorInput = document.getElementById('valor');
     const entradaRadio = document.getElementById('comodato');
     const saidaRadio = document.getElementById('venda');
-    const valor = parseFloat(valorInput.value);
+    let valor = parseFloat(valorInput.value);
     const tipo = entradaRadio.checked ? 'entrada' : (saidaRadio.checked ? 'saida' : '');
 
     if (!valor || !tipo) {
         alert('Por favor, preencha todos os campos.');
         return;
+    }
+
+    if (tipo === 'saida') {
+        valor = -valor;
     }
 
     const arrayfinanceiro = {
@@ -88,7 +94,7 @@ function openEditModal(id) {
     let arrayfinanceiro = arrayfinanceiros.find(arrayfinanceiro => arrayfinanceiro.id === id);
 
     if (arrayfinanceiro) {
-        document.getElementById('editValor').value = arrayfinanceiro.valor;
+        document.getElementById('editValor').value = Math.abs(arrayfinanceiro.valor);
         if (arrayfinanceiro.tipo === 'entrada') {
             document.getElementById('editEntrada').checked = true;
         } else {
@@ -109,8 +115,15 @@ function saveEdit() {
     let arrayfinanceiro = arrayfinanceiros.find(arrayfinanceiro => arrayfinanceiro.id === editarrayfinanceiroId);
 
     if (arrayfinanceiro) {
-        arrayfinanceiro.valor = document.getElementById('editValor').value;
-        arrayfinanceiro.tipo = document.querySelector('input[name="editTipo"]:checked').value;
+        let valorEditado = parseFloat(document.getElementById('editValor').value);
+        let tipoEditado = document.querySelector('input[name="editTipo"]:checked').value;
+
+        if (tipoEditado === 'saida') {
+            valorEditado = -valorEditado;
+        }
+
+        arrayfinanceiro.valor = valorEditado.toFixed(2);
+        arrayfinanceiro.tipo = tipoEditado;
         localStorage.setItem('arrayfinanceiros', JSON.stringify(arrayfinanceiros));
         refreshTable();
         closeModal();
