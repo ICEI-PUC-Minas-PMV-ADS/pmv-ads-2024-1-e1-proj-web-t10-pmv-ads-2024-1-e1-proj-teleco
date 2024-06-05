@@ -1,5 +1,11 @@
 document.addEventListener('DOMContentLoaded', loadarrayfinanceiros);
 
+function setUser() {
+    // Supondo que o usuário esteja armazenado em localStorage
+    let user = localStorage.getItem('username') || 'Usuário Desconhecido';
+    document.getElementById('tagusuario').textContent = user;
+}
+
 function insereDados() {
     const valorInput = document.getElementById('valor');
     const entradaRadio = document.getElementById('comodato');
@@ -40,9 +46,15 @@ function addarrayfinanceiroDOM(arrayfinanceiro) {
         <td>${arrayfinanceiro.valor}</td>
         <td>${arrayfinanceiro.user}</td>
         <td>${arrayfinanceiro.tipo}</td>
-        <td><button onclick="removearrayfinanceiro(${arrayfinanceiro.id})">Remover</button></td>
+        <td>
+            <button class="btn-edit" onclick="openEditModal(${arrayfinanceiro.id})">
+                <i class="bi bi-pencil"></i>
+            </button>
+            <button class="btn-remove" onclick="removearrayfinanceiro(${arrayfinanceiro.id})">
+                <i class="bi bi-trash"></i>
+            </button>
+        </td>
     `;
-    
     tabela.appendChild(row);
 }
 
@@ -69,85 +81,7 @@ function removearrayfinanceiro(id) {
     arrayfinanceiros.forEach(addarrayfinanceiroDOM);
 }
 
-
-function addarrayfinanceiroDOM(arrayfinanceiro) {
-    const tabela = document.getElementById('tabela');
-    const row = document.createElement('tr');
-
-    row.innerHTML = `
-        <td>${arrayfinanceiro.date}</td>
-        <td>${arrayfinanceiro.valor}</td>
-        <td>${arrayfinanceiro.user}</td>
-        <td>${arrayfinanceiro.tipo}</td>
-        <td>
-            <button class="btn-remove" onclick="removearrayfinanceiro(${arrayfinanceiro.id})">
-                <i class="bi bi-trash"></i>
-            </button>
-        </td>
-    `;
-    tabela.appendChild(row);
-}
-
-
-function addarrayfinanceiroDOM(arrayfinanceiro) {
-    const tabela = document.getElementById('tabela');
-    const row = document.createElement('tr');
-
-    row.innerHTML = `
-        <td>${arrayfinanceiro.date}</td>
-        <td>${arrayfinanceiro.valor}</td>
-        <td>${arrayfinanceiro.user}</td>
-        <td>${arrayfinanceiro.tipo}</td>
-        <td>
-            <button class="btn-edit" onclick="editarrayfinanceiro(${arrayfinanceiro.id})">
-                <i class="bi bi-pencil"></i>
-            </button>
-            <button class="btn-remove" onclick="removearrayfinanceiro(${arrayfinanceiro.id})">
-                <i class="bi bi-trash"></i>
-            </button>
-        </td>
-    `;
-    tabela.appendChild(row);
-}
-
-function editarrayfinanceiro(id) {
-    let arrayfinanceiros = getarrayfinanceirosLocalStorage();
-    let arrayfinanceiro = arrayfinanceiros.find(arrayfinanceiro => arrayfinanceiro.id === id);
-
-    if (arrayfinanceiro) {
-        document.getElementById('valor').value = arrayfinanceiro.valor;
-        if (arrayfinanceiro.tipo === 'entrada') {
-            document.getElementById('comodato').checked = true;
-        } else {
-            document.getElementById('venda').checked = true;
-        }
-
-        removearrayfinanceiro(id); // Remover a transação antiga para substituir pela nova
-    }
-}
-
 let editarrayfinanceiroId = null;
-
-function addarrayfinanceiroDOM(arrayfinanceiro) {
-    const tabela = document.getElementById('tabela');
-    const row = document.createElement('tr');
-
-    row.innerHTML = `
-        <td>${arrayfinanceiro.date}</td>
-        <td>${arrayfinanceiro.valor}</td>
-        <td>${arrayfinanceiro.user}</td>
-        <td>${arrayfinanceiro.tipo}</td>
-        <td>
-            <button class="btn-edit" onclick="openEditModal(${arrayfinanceiro.id})">
-                <i class="bi bi-pencil-square"></i>
-            </button>
-            <button class="btn-remove" onclick="removearrayfinanceiro(${arrayfinanceiro.id})">
-                <i class="bi bi-trash-fill"></i>
-            </button>
-        </td>
-    `;
-    tabela.appendChild(row);
-}
 
 function openEditModal(id) {
     let arrayfinanceiros = getarrayfinanceirosLocalStorage();
@@ -177,7 +111,7 @@ function saveEdit() {
     if (arrayfinanceiro) {
         arrayfinanceiro.valor = document.getElementById('editValor').value;
         arrayfinanceiro.tipo = document.querySelector('input[name="editTipo"]:checked').value;
-        setarrayfinanceirosLocalStorage(arrayfinanceiros);
+        localStorage.setItem('arrayfinanceiros', JSON.stringify(arrayfinanceiros));
         refreshTable();
         closeModal();
     }

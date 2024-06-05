@@ -107,6 +107,29 @@
           </table>
         </div>
       </div>
+
+      <div id="editModal" class="modal">
+        <div class="modal-content">
+          <span class="close" onclick="closeModal()">&times;</span>
+          <h2>Editar Lançamento</h2>
+          <form id="editForm">
+            <div class="inputBox-caixalancamento">
+              <label for="editValor" class="labelInput-caixalancamento">Valor:</label>
+              <input type="number" name="editValor" id="editValor" class="inputUser-caixalancamento" required>
+            </div>
+            <div class="inputBox-caixalancamento">
+              <label for="editEntrada" class="labelInput-pdv">Tipo de Lançamento: </label>
+              <input type="radio" name="editTipo" id="editEntrada" class="radio-venda" value="entrada" required>
+              <label for="editEntrada" class="labelInput-pdv">Entrada</label>
+              <input type="radio" name="editTipo" id="editSaida" class="radio-comodato" value="saida" required>
+              <label for="editSaida" class="labelInput-pdv">Saida</label>
+            </div>
+            <br>
+            <input type="button" onclick="saveEdit()" name="submit" value="Salvar" id="submit-caixalancamento">
+          </form>
+        </div>
+      </div>
+        
       <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-app-compat.js"></script>
       <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-auth-compat.js"></script>
       <script src="https://www.gstatic.com/firebasejs/9.6.7/firebase-firestore-compat.js"></script>
