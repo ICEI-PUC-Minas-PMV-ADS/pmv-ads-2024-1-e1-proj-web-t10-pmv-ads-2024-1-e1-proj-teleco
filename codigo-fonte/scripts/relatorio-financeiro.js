@@ -2,8 +2,8 @@ swal('Aviso Importante','A pesquisa deve conter apenas um dos filtros! ')
 
 pegadados()
 function pegadados() {
-    arrayfinanceiro = JSON.parse(localStorage.getItem('arrayfinanceiro'))
-    var count = arrayfinanceiro.length
+    var arrayfinanceiros = JSON.parse(localStorage.getItem('arrayfinanceiros'))
+    var count = arrayfinanceiros.length
     var soma = 0
     var tabela = document.getElementById('tabela')
 
@@ -15,11 +15,11 @@ function pegadados() {
         let tdtipo = tr.insertCell()
         let tdAcao = tr.insertCell()
 
-        tddata.innerText = arrayfinanceiro[i - 1].data
-        tdvalor.innerText = parseFloat(arrayfinanceiro[i - 1].valor).toFixed(2)
+        tddata.innerText = arrayfinanceiros[i - 1].date
+        tdvalor.innerText = parseFloat(arrayfinanceiros[i - 1].valor).toFixed(2)
         tdvalor.setAttribute("class", "valor")
-        tduser.innerText = arrayfinanceiro[i - 1].user
-        tdtipo.innerText = arrayfinanceiro[i - 1].tipo
+        tduser.innerText = arrayfinanceiros[i - 1].user
+        tdtipo.innerText = arrayfinanceiros[i - 1].tipo
 
 
         let botaodelete = document.createElement('i')
@@ -33,7 +33,7 @@ function pegadados() {
     }
 
     for (i = count; i > 0; i--) {
-        soma = soma + parseFloat(arrayfinanceiro[i - 1].valor)
+        soma = soma + parseFloat(arrayfinanceiros[i - 1].valor)
     }
     var resultado = document.getElementById('resultado')
     resultado.innerText = parseFloat(soma).toFixed(2)
@@ -41,9 +41,9 @@ function pegadados() {
 
 function deletar(id) {
     var tabela = document.getElementById('tabela')
-    let array = JSON.parse(localStorage.getItem('arrayfinanceiro'))
+    let array = JSON.parse(localStorage.getItem('arrayfinanceiros'))
     array.splice(id - 1, 1)
-    localStorage.arrayfinanceiro = JSON.stringify(array)
+    localStorage.arrayfinanceiros = JSON.stringify(array)
     tabela.deleteRow(i - 1)
     location.reload()
 }
