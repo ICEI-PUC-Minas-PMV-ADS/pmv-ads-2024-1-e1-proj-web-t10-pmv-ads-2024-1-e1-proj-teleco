@@ -8,7 +8,7 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
 |:---|:---|
 | Requisitos Associados | RF-01 A aplicação deve permitir ao usuário fazer login no sistema. |
 | Objetivo do Teste |Verificar se o site permite os usuários que ja estão cadastrados a entrarem no sistema |
-| Passos | 1.Entrar no link do site. 2.Digitar corretamente usuário e senha ja cadastrados anteriormente. 3.Entrar no sistema|
+| Passos | 1. Entrar no link do site. 2. Digitar corretamente usuário e senha ja cadastrados anteriormente. 3. Entrar no sistema|
 | Critérios de êxito | Após digitados corretamente o usuário deverá entrar no site sem problemas  |
 | Responsável pela elaborar do caso de Teste | Arthur |
  
