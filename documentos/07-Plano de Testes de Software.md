@@ -19,7 +19,23 @@ Os testes funcionais a serem realizados na aplicação são descritos a seguir. 
 | Passos | 1. Entrar no link do site 2. Digitar corretamente usuário e senha ja cadastrados anteriormente 3. Entrar no sistema 4. Abrir a parte de relatório financeiro 5. Conferir os dados|
 | Critérios de êxito | As operações tem que aparecer corretamente e com todos os dados certos.  |
 | Responsável pela elaborar do caso de Teste | Arthur |
+
+|Caso de Teste    | CT-03 - Verificar se a aplicação relata as operações financeiras ocorridas no estoque|
+|:---|:---|
+| Requisitos Associados | RF-03 A aplicação deve relatar as operações financeiras realizadas no estoque(abastecimento e retirada). |
+| Objetivo do Teste |Verificar se a aplicação está relatando corretamente as operações financeiras ocorridas no sistema de estoque |
+| Passos | 1. Entrar no link do site 2. Digitar corretamente usuário e senha ja cadastrados anteriormente 3. Entrar no sistema 4. Abrir a parte de relatório financeiro 5. Conferir os dados do estoque|
+| Critérios de êxito | As operações de entrada e saída tem que aparecer corretamente e com todos os dados certos.  |
+| Responsável pela elaborar do caso de Teste | Arthur |
  
+
+|Caso de Teste    | CT-05 - Verificar se a aplicação informa ao usuário as compras feitas|
+|:---|:---|
+| Requisitos Associados | RF-05 A aplicação deve informar ao usuário quanto a compras, atendimentos e visitas a clientes feitas e programadas. |
+| Objetivo do Teste |Verificar se a aplicação está permitindo o usuário veja suas compras e atendimentos aos clientes |
+| Passos | 1. Entrar no link do site 2. Digitar corretamente usuário e senha ja cadastrados anteriormente 3. Entrar no sistema 4. Abrir a parte de ponto de venda 5. Conferir os dados|
+| Critérios de êxito | A aplicação precisa mostrar as compras e visitas feitas e programadas |
+| Responsável pela elaborar do caso de Teste | Arthur |
 > **Links Úteis**:
 > - [IBM - Criação e Geração de Planos de Teste](https://www.ibm.com/developerworks/br/local/rational/criacao_geracao_planos_testes_software/index.html)
 > -  [Teste de Software: Conceitos e tipos de testes](https://blog.onedaytesting.com.br/teste-de-software/)
