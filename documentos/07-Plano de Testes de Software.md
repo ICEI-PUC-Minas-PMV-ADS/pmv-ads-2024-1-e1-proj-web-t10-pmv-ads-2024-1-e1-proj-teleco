@@ -4,12 +4,20 @@
 
 Os testes funcionais a serem realizados na aplicação são descritos a seguir. [Utilize a estrutura abaixo para cada caso de teste]
 
-|Caso de Teste    | CT-1 - Verificar se o site permite o usuário fazer login |
+|Caso de Teste    | CT-01 - Verificar se o site permite o usuário fazer login |
 |:---|:---|
 | Requisitos Associados | RF-01 A aplicação deve permitir ao usuário fazer login no sistema. |
 | Objetivo do Teste |Verificar se o site permite os usuários que ja estão cadastrados a entrarem no sistema |
 | Passos | 1. Entrar no link do site. 2. Digitar corretamente usuário e senha ja cadastrados anteriormente. 3. Entrar no sistema|
 | Critérios de êxito | Após digitados corretamente o usuário deverá entrar no site sem problemas  |
+| Responsável pela elaborar do caso de Teste | Arthur |
+
+|Caso de Teste    | CT-02 - Verificar se a aplicação relata as operações financeiras ocorridas |
+|:---|:---|
+| Requisitos Associados | RF-02 A aplicação deve relatar as operações financeiras ocorridas no sistema. |
+| Objetivo do Teste |Verificar se a aplicação está relatando corretamente as operações financeiras ocorridas no sistema |
+| Passos | 1. Entrar no link do site 2. Digitar corretamente usuário e senha ja cadastrados anteriormente 3. Entrar no sistema 4. Abrir a parte de relatório financeiro 5. Conferir os dados|
+| Critérios de êxito | As operações tem que aparecer corretamente e com todos os dados certos.  |
 | Responsável pela elaborar do caso de Teste | Arthur |
  
 > **Links Úteis**:
