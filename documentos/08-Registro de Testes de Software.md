@@ -68,6 +68,6 @@ Relatório com as evidências dos testes de software realizados na aplicação p
 | Resultados obtidos | A aplicação alerta a necessidade de reabastecer  |
 | Responsável pela execução do caso de Teste | Arthur |
 <figure> 
-  <img src="img/estoqueinsu.png"<figcaption>Figura 6 - Estoque Insuficiente</figcaption>
+  <img src="img/estoqueinsu.png"<figcaption>Figura 7 - Estoque Insuficiente</figcaption>
 </figure>
 
