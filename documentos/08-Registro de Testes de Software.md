@@ -20,6 +20,7 @@ Relatório com as evidências dos testes de software realizados na aplicação p
 |:---|:---|
 | Resultados obtidos | A aplicação relatou as operações financeiras corretamente  |
 | Responsável pela execução do caso de Teste | Arthur | 
+<figure>
   <img src="img/operações.png"
   <figcaption>Figura 2 - Operações financeiras</figcaption>
 </figure>
@@ -28,6 +29,7 @@ Relatório com as evidências dos testes de software realizados na aplicação p
 |:---|:---|
 | Resultados obtidos | A aplicação relatou as operações financeiras ocorridas no estoque corretamente  |
 | Responsável pela execução do caso de Teste | Arthur | 
+<figure>
   <img src="img/opEstoque.png"
   <figcaption>Figura 3 - Operações financeiras do estoque</figcaption>
 </figure>
@@ -37,6 +39,7 @@ Relatório com as evidências dos testes de software realizados na aplicação p
 |:---|:---|
 | Resultados obtidos | A aplicação relatou as compras feitas corretamente  |
 | Responsável pela execução do caso de Teste | Arthur | 
+<figure>
   <img src="img/vendas.png"
   <figcaption>Figura 4 - compras</figcaption>
 </figure>
@@ -46,6 +49,7 @@ Relatório com as evidências dos testes de software realizados na aplicação p
 |:---|:---|
 | Resultados obtidos | A aplicação permitiu o usuario alterar as informações  |
 | Responsável pela execução do caso de Teste | Arthur | 
+<figure>
   <img src="img/edit.png"
   <figcaption>Figura 5 - Editar caixa</figcaption>
 </figure>
@@ -53,7 +57,8 @@ Relatório com as evidências dos testes de software realizados na aplicação p
 |Caso de Teste    | CT-06 -  aplicação deve informar ao usuário o que há no estoque físico |
 |:---|:---|
 | Resultados obtidos | A aplicação informa o que há no estoque  |
-| Responsável pela execução do caso de Teste | Arthur | 
+| Responsável pela execução do caso de Teste | Arthur |
+<figure> 
   <img src="img/opEstoque.png"
   <figcaption>Figura 6 - Estoque</figcaption>
 </figure>
@@ -61,8 +66,8 @@ Relatório com as evidências dos testes de software realizados na aplicação p
 |Caso de Teste    | CT-07 - A aplicação deve alertar o usuário quanto a necessidade de reabastecer o estoque |
 |:---|:---|
 | Resultados obtidos | A aplicação alerta a necessidade de reabastecer  |
-| Responsável pela execução do caso de Teste | Arthur | 
-  <img src="img/estoqueinsu.png"
-  <figcaption>Figura 6 - Estoque Insuficiente</figcaption>
+| Responsável pela execução do caso de Teste | Arthur |
+<figure> 
+  <img src="img/estoqueinsu.png"<figcaption>Figura 6 - Estoque Insuficiente</figcaption>
 </figure>
 
