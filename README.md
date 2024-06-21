@@ -1,11 +1,10 @@
 # Título do Projeto
 
-`CURSO`
+Analise de desenvolvimento de sistemas
 
-`DISCIPLINA`
+Projeto: Desenvolvimento de Aplicação Web Front-End
 
-`SEMESTRE`
-
+Eixo 1
 Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 
 ## Integrantes
