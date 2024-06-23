@@ -18,13 +18,6 @@ A apresentação do projeto consiste na geração de um conjunto de slides em um
 
 ## Vídeo de apresentação
 
-A equipe também deverá gravar um vídeo de, no máximo, três minutos, com a apresentação da solução. Vocês deverão abrir a aplicação hospedada e apresentar o seu funcionamento.  Poderão ser utilizados quaisquer recursos na montagem do vídeo, mas não se esqueçam de mostrar as funcionalidades da aplicação. Seguem as especificações técnicas que devem ser obedecidas na geração do vídeo:
-
-> - tamanho do arquivo limitado a 90Mb
-> - taxa de FPS limitada a 30 quadros por segundo
-> - resolução HD (720p) ou Full HD (1080p)
-> - formato mp4.
-
 
 
 https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-teleco/assets/160364665/81b4e16a-1ad4-4b12-a9e2-ec2bfaf337e4
@@ -33,7 +26,7 @@ https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads
 
 ## Hospedagem
 
-[Adicione o endereço eletrônico público onde o site encontra-se hospedado.]
+(https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-teleco/codigo-fonte/index.html)
 
 
 
