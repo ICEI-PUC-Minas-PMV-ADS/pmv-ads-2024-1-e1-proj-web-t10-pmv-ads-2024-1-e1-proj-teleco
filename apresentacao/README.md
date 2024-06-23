@@ -20,7 +20,8 @@ A apresentação do projeto consiste na geração de um conjunto de slides em um
 
 
 
-https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-teleco/assets/160364665/81b4e16a-1ad4-4b12-a9e2-ec2bfaf337e4
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-teleco/assets/160364665/ac0e58cc-bc7f-4824-a5d1-a65a7ecb31c4
 
 
 
