@@ -25,7 +25,11 @@ A equipe também deverá gravar um vídeo de, no máximo, três minutos, com a a
 > - resolução HD (720p) ou Full HD (1080p)
 > - formato mp4.
 
-[Adicione vídeo de apresentação.]
+
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-teleco/assets/160364665/81b4e16a-1ad4-4b12-a9e2-ec2bfaf337e4
+
+
 
 ## Hospedagem
 
