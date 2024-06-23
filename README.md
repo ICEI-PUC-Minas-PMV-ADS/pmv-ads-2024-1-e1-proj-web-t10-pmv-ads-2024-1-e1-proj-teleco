@@ -34,7 +34,7 @@ Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 
 # Hospedagem
 
-* [Insira o endereço eletrônico público de acesso ao conteúdo publicado.](https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-teleco/codigo-fonte/index.html) 
+(https://icei-puc-minas-pmv-ads.github.io/pmv-ads-2024-1-e1-proj-web-t10-pmv-ads-2024-1-e1-proj-teleco/codigo-fonte/index.html) 
 
 # Código-Fonte
 
