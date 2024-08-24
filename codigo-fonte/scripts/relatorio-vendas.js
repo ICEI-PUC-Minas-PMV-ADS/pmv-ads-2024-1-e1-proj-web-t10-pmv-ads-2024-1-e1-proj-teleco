@@ -31,7 +31,7 @@ fetch(url, {
 
 
 
-console.log("tets")
+alert("tets")
 
 
 
